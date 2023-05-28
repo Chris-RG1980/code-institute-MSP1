@@ -32,6 +32,7 @@ Link to live project
     - [Text, Images \& Media](#text-images--media)
 ***
 ## User Stories
+
 ***
 ## Features
 This project is designed to provide an informative and useful resource to office workers.
@@ -58,6 +59,7 @@ This project is designed to provide an informative and useful resource to office
 ## Technology
 ### Technologies Used
 ### Programs Used
+* Cardboard It (https://cardboardit.com/) - User Story Mapping Tool
 ***
 ## Testing
 ### Code Validation (HTML) 
