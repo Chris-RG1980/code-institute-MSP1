@@ -78,6 +78,7 @@ This project is designed to provide an informative and useful resource to office
 ### Technologies Used
 ### Programs Used
 * Cardboard It (https://cardboardit.com/) - User Story Mapping Tool
+* Balsamiq Wireframes (https://balsamiq.com/) - Wireframes Tool
 ***
 ## Testing
 ### Code Validation (HTML) 
