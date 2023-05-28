@@ -6,6 +6,30 @@ Images of finished site
 Link to live project
 ***
 ## Contents
+- [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
+  - [Contents](#contents)
+  - [User Stories](#user-stories)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+  - [Typography and Color Scheme](#typography-and-color-scheme)
+    - [Typography](#typography)
+    - [Color Scheme](#color-scheme)
+  - [Wireframes](#wireframes)
+  - [Technology](#technology)
+    - [Technologies Used](#technologies-used)
+    - [Programs Used](#programs-used)
+  - [Testing](#testing)
+    - [Code Validation (HTML)](#code-validation-html)
+    - [Code Validation (CSS)](#code-validation-css)
+    - [Lighthouse](#lighthouse)
+    - [Bug Fixes](#bug-fixes)
+    - [Supported screens and Browsers](#supported-screens-and-browsers)
+    - [Testing User Stories](#testing-user-stories)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Text, Images \& Media](#text-images--media)
 ***
 ## User Stories
 ***
