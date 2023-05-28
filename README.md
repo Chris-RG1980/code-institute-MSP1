@@ -55,11 +55,30 @@ This project is designed to provide an informative and useful resource to office
 ### Color Scheme
 ***
 ## Wireframes
+[Mobile Home Page](resources/mobile-home-page.png)  
+[Mobile Travel Page 1](resources/mobile-travel-page%20.png)  
+[Mobile Travel Page 2](resources/mobile-travel-page2.png)  
+[Mobile Lunch Page 1](resources/mobile-lunch-page%20.png)  
+[Mobile Lunch Page 2](resources/mobile-lunch-page2.png)  
+[Mobile Fitness Page](resources/mobile-fitness-page%20.png)  
+[Mobile Gallery Page](resources/mobile-gallery-page%20.png)  
+[Tablet Home Page](resources/tablet-home-page%20.png)  
+[Tablet Travel Page](resources/tablet-travel-page%20.png)  
+[Tablet Lunch Page 1](resources/tablet-lunch-page%202.png)  
+[Tablet Lunch Page 2](resources/tablet-lunch-page%202.png)  
+[Tablet Fitness Page](resources/tablet-fitness-page%20.png)  
+[Tablet Gallery Page](resources/tablet-gallery-page%20.png)  
+[Desktop Home Page](resources/desktop-home-page.png)  
+[Desktop Travel Page](resources/desktop-travel-page%20.png)  
+[Desktop Lunch Page](resources/desktop-lunch-page.png)  
+[Desktop Fitness Page](resources/desktop-fitness-page%20.png)  
+[Destop Gallery Page](resources/desktop-gallery-page%20.png)  
 ***
 ## Technology
 ### Technologies Used
 ### Programs Used
 * Cardboard It (https://cardboardit.com/) - User Story Mapping Tool
+* Balsamiq Wireframes (https://balsamiq.com/) - Wireframes Tool
 ***
 ## Testing
 ### Code Validation (HTML) 
