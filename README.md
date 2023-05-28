@@ -4,16 +4,36 @@ The Office Worker's Guide to: Cardiff aims to inform and assist new and returnin
 
 Images of finished site
 Link to live project
-
 ***
-### Wireframes
+## Contents
 ***
+## User Stories
+***
+## Features
+### Existing Features
+### Future Features
+***
+## Typography and Color Scheme
+### Typography
+### Color Scheme
+***
+## Wireframes
+***
+## Technology
+### Technologies Used
+### Programs Used
+***
+## Testing
+### Code Validation (HTML) 
+### Code Validation (CSS)
+### Lighthouse
 ### Bug Fixes
+### Supported screens and Browsers
+### Testing User Stories
 ***
-### Credits
-##### Code
-##### Text, Images & Media
+## Deployment
 ***
-### Deployment
+## Credits
+### Code
+### Text, Images & Media
 ***
-### Testing
