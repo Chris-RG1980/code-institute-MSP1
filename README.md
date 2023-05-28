@@ -32,7 +32,7 @@ Link to live project
     - [Text, Images \& Media](#text-images--media)
 ***
 ## User Stories
-![Image](resources/2023-05-28%20(2).png)
+![Image](resources/user-story.png)
 ***
 ## Features
 This project is designed to provide an informative and useful resource to office workers.
