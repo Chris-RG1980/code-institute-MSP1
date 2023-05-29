@@ -12,13 +12,51 @@ nav {
     --bs-nav-link-color: white;
 }
 
-div {
-    border: 2px solid black;
+#travel {
+    background-color: cornflowerblue;
+    border: black solid 2px;
 }
-/*---------------------------------Navbar-------------------------*/
 
+#fitness {
+    background-color: aquamarine;
+}
+
+#lunch {
+    background-color: coral;
+}
+
+#gallery {
+    background-color: greenyellow;
+}
+
+/*---------------------------------Main Section-------------------------*/
+
+
+.main-section {
+    font-family: "Source Sans Pro", Arial, sans-serif ;
+}
+
+.main-heading {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.city-name {
+    font-family: "Courgette", Arial, sans-serif;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
 
 img {
-    height: 400px;
-    width: 100%
+    width: 100%;
+    border-radius: 10%;
 }
