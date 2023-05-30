@@ -1,63 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Signika+Negative:wght@700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
 /*----------------------------Colors-----------------------------*/
 nav {
     background-color: #00736C;
 }
 .navbar {
-    --bs-navbar-active-color: #9aff3f;
+    --bs-navbar-active-color: #f7f009;
 }
 
 .navbar-nav {
     --bs-nav-link-color: white;
 }
 
-#travel {
-    background-color: cornflowerblue;
-    border: black solid 2px;
-}
-
-#fitness {
-    background-color: aquamarine;
-}
-
-#lunch {
-    background-color: coral;
-}
-
-#gallery {
-    background-color: greenyellow;
+.btn-color {
+    background-color:#00736c;
+    color: white;
 }
 
 /*---------------------------------Main heading of page-------------------------*/
 
 
-.main-section {
+body {
     font-family: "Source Sans Pro", Arial, sans-serif ;
 }
 
-.image-container {
-    background-image: url(/assets/images/hero_banner.jpg);
-    height: 400px;
+.navbar {
+    padding: 0;
 }
 
-.main-heading {
-padding: 1rem 2rem;
+.nav-logo {
+    font-family: 'Signika Negative', sans-serif;
+    color: #66C6BA;
+}
+
+.image-container {
+    background:  #efeee9 no-repeat url(/assets/images/man-briefcase-optimised.png) right top;
+    height: 400px;
+
 }
 
 .city-name {
-    margin: 1rem 30rem ;
     font-family: "Courgette", Arial, sans-serif;
     font-size: 6rem;
 }
 
 .slogan {
-    margin: 0 27rem;
     font-size: 1.25rem;
 }
 
-/*----------------------------Bootstrap grid system-------------------------*/
 
-.page-info {
-    margin-top: 2rem;
-}
