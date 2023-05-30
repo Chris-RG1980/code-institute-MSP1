@@ -36,18 +36,24 @@ nav {
     font-family: "Source Sans Pro", Arial, sans-serif ;
 }
 
+.image-container {
+    background-image: url(/assets/images/hero_banner.jpg);
+    height: 400px;
+}
+
 .main-heading {
-    text-align: center;
-    margin-top: 1rem;
+padding: 1rem 2rem;
 }
 
 .city-name {
+    margin: 1rem 30rem ;
     font-family: "Courgette", Arial, sans-serif;
+    font-size: 6rem;
 }
 
 .slogan {
-    text-align: center;
-    font-size: 20px;
+    margin: 0 27rem;
+    font-size: 1.25rem;
 }
 
 
