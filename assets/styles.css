@@ -29,7 +29,7 @@ nav {
     background-color: greenyellow;
 }
 
-/*---------------------------------Main Section-------------------------*/
+/*---------------------------------Main heading of page-------------------------*/
 
 
 .main-section {
@@ -56,13 +56,8 @@ padding: 1rem 2rem;
     font-size: 1.25rem;
 }
 
+/*----------------------------Bootstrap grid system-------------------------*/
 
-
-ul {
-    list-style-type: none;
-}
-
-img {
-    width: 100%;
-    border-radius: 10%;
+.page-info {
+    margin-top: 2rem;
 }
