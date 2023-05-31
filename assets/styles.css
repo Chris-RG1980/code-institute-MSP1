@@ -36,7 +36,6 @@ body {
 .image-container {
     background:  #efeee9 no-repeat url(/assets/images/man-briefcase-optimised.png) right top;
     height: 400px;
-
 }
 
 .city-name {
@@ -48,4 +47,8 @@ body {
     font-size: 1.25rem;
 }
 
+#video {
+padding: 0;
+border: 2px solid black;
+}
 
