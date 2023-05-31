@@ -9,20 +9,31 @@ nav {
 }
 
 .navbar-nav {
-    --bs-nav-link-color: white;
+    --bs-nav-link-color: #fff;
 }
 
 .btn-color {
     background-color:#00736c;
-    color: white;
+    color: #fff;
 }
 
-/*---------------------------------Main heading of page-------------------------*/
+.footer-color {
+    background-color: #00736C;
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #f7f009;
+}
+
+/*---------------------------------Page body-------------------------*/
 
 
 body {
     font-family: "Source Sans Pro", Arial, sans-serif ;
 }
+
+/*-----------------------------Navbar-------------------------------*/
 
 .navbar {
     padding: 0;
@@ -32,6 +43,8 @@ body {
     font-family: 'Signika Negative', sans-serif;
     color: #66C6BA;
 }
+
+/*----------------------------Main Section---------------------------*/
 
 .image-container {
     background:  #efeee9 no-repeat url(/assets/images/man-briefcase-optimised.png) right top;
@@ -48,7 +61,28 @@ body {
 }
 
 #video {
-padding: 0;
-border: 2px solid black;
+    padding: 0;
+    border: 2px solid black;
+}
+
+/*-------------------------------Footer-------------------------------*/
+
+.footer-text {
+    font-size: small;
+}
+
+.icon-spacing {
+    padding-left: 10px;
+}
+
+.footer-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
 }
 
