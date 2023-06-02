@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Signika+Negative:wght@700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
-/*----------------------------Colors-----------------------------*/
+/*----------------------------Colors Homepage-----------------------------*/
 nav {
     background-color: #00736C;
 }
@@ -17,6 +17,10 @@ nav {
     color: #fff;
 }
 
+.btn-color:hover {
+    background-color: #66C6BA;
+}
+
 footer {
     background-color: #00736C;
     color: #fff;
@@ -24,6 +28,16 @@ footer {
 
 .footer-link:hover {
     color: #f7f009;
+}
+
+/*-Commuting page Colors-*/
+
+.accordion-button {
+    --bs-accordion-active-bg: #66C6BA;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 115, 108);
 }
 
 /*---------------------------------Page body-------------------------*/
@@ -51,7 +65,7 @@ body {
     height: 400px;
 }
 
-.city-name {
+.page-name {
     font-family: "Courgette", Arial, sans-serif;
     font-size: 6rem;
 }
@@ -69,8 +83,17 @@ body {
     .image-container {
         background-image: none;
     }
-    #home {
+    .heading-banner {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-container {
+        height: 200px;
+    }
+    .page-name {
+        font-size: 3rem;
     }
 }
 /*-------------------------------Footer-------------------------------*/
@@ -93,4 +116,7 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+/*-------------------Commuting Page-------------------------------*/
+
 
