@@ -1,0 +1,8 @@
+<!-- sample rectangle -->
+<svg width="78" height="106" xmlns="http://www.w3.org/2000/svg">
+  <style>
+  .brand { fill:#66c6ba }
+  </style>
+  <rect width="61" height="27" x="8" y="14" class="brand" />
+  <rect width="31" height="51" x="23" y="40" class="brand" />
+</svg>

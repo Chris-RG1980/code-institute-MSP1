@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Signika+Negative:wght@700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/*----------------------------Colors Homepage-----------------------------*/
+nav {
+    background-color: #00736C;
+}
+.navbar {
+    --bs-navbar-active-color: #f7f009;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #fff;
+}
+
+.btn-color {
+    background-color:#00736c;
+    color: #fff;
+}
+
+.btn-color:hover {
+    background-color: #66C6BA;
+}
+
+footer {
+    background-color: #00736C;
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #f7f009;
+}
+
+/*-Commuting page Colors-*/
+
+.accordion-button {
+    --bs-accordion-active-bg: #66C6BA;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 115, 108);
+}
+
+/*---------------------------------Page body-------------------------*/
+
+
+body {
+    font-family: "Source Sans Pro", Arial, sans-serif ;
+}
+
+/*-----------------------------Navbar-------------------------------*/
+
+.navbar {
+    padding: 0;
+}
+
+.nav-logo {
+    font-family: 'Signika Negative', sans-serif;
+    color: #66C6BA;
+}
+
+/*----------------------------Main Section---------------------------*/
+
+.image-container {
+    background:  #efeee9 no-repeat url(/assets/images/man-briefcase-optimised.png) right top;
+    height: 400px;
+}
+
+.page-name {
+    font-family: "Courgette", Arial, sans-serif;
+    font-size: 6rem;
+}
+
+.slogan {
+    font-size: 1.25rem;
+}
+
+#video {
+    padding: 0;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+    .image-container {
+        background-image: none;
+        height: 250px;
+    }
+    .heading-banner {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-container {
+        height: 200px;
+    }
+    .page-name {
+        font-size: 3rem;
+    }
+}
+/*-------------------------------Footer-------------------------------*/
+
+.footer-text {
+    font-size: small;
+}
+
+.icon-spacing {
+    padding-left: 10px;
+}
+
+.footer-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------------------Commuting Page-------------------------------*/
+
+
