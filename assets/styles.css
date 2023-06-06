@@ -79,24 +79,6 @@ body {
     border: 2px solid black;
 }
 
-@media screen and (max-width: 1200px) {
-    .image-container {
-        background-image: none;
-        height: 250px;
-    }
-    .heading-banner {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .image-container {
-        height: 200px;
-    }
-    .page-name {
-        font-size: 3rem;
-    }
-}
 /*-------------------------------Footer-------------------------------*/
 
 .footer-text {
@@ -141,4 +123,36 @@ body {
 
 .lunch-button {
     margin: 1rem;
+}
+
+
+/*------------------Responsive------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    .image-container {
+        background-image: none;
+        height: 250px;
+    }
+    .heading-banner {
+        text-align: center;
+    }
+    .featured-tile-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 576px) {
+    .lunch-image {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-container {
+        height: 200px;
+    }
+    .page-name {
+        font-size: 3rem;
+    }
 }
