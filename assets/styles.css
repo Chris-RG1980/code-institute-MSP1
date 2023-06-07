@@ -40,6 +40,16 @@ footer {
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 115, 108);
 }
 
+/*-Fitness page Colors-*/
+
+.gym-background-b {
+    background-color: #fdf8b2;
+}
+
+.gym-background-a {
+    background-color: #efeee9;
+}
+
 /*---------------------------------Page body-------------------------*/
 
 
@@ -133,6 +143,16 @@ body {
 
 .lunch-button {
     margin: 1rem;
+}
+
+/*----------------Fitness Page----------------------*/
+
+.facilities-table {
+    margin: 0 auto;
+}
+
+.gym-logo {
+    height: 100px;
 }
 
 
