@@ -50,6 +50,13 @@ footer {
   background-color: #efeee9;
 }
 
+/*-Feedback page Colors-*/
+
+.form-bg-color {
+  background-color: #fdf8b2;
+  border: #00736c solid 4px;
+}
+
 /*---------------------------------Page body-------------------------*/
 
 body {
@@ -239,6 +246,19 @@ body {
   grid-row-end: 9;
 }
 
+/*------------------Feedback Page------------------------------*/
+
+.btn-position {
+  margin: 0 auto;
+}
+
+fieldset {
+  margin: 1.5rem 2.5rem 0;
+}
+
+#feedback-heading {
+  font-size: 2.5rem;
+}
 /*------------------Responsiveness------------------------------*/
 
 @media screen and (max-width: 1200px) {
