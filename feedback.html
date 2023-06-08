@@ -78,59 +78,259 @@
         </div>
       </div>
     </section>
-        <!--Footer using bootstrap grid for positioning-->
-        <footer>
-            <div class="container footer-color">
-              <div class="row mt-4">
-                <div class="col-6 p-3 text-center">
-                  <h4>Contact Us</h4>
-                  <h5>
-                    <i class="fa-solid fa-location-dot"></i
-                    ><span class="icon-spacing">Address</span>
-                  </h5>
-                  <p class="footer-text">
-                    TOWGT:Cardiff<br />1 Best Street<br />Cardiff<br />CF10 5BH
-                  </p>
-                  <p class="footer-text">
-                    <i class="fa-solid fa-envelope"></i
-                    ><span class="icon-spacing">Email:towgt@anywhere.co.uk</span>
-                  </p>
-                  <p class="footer-text">
-                    <i class="fa-solid fa-phone"></i
-                    ><span class="icon-spacing">01234 567890</span>
-                  </p>
+    <!--Feedback form, outline created using bootstrap 5 cards-->
+    <section>
+      <div class="container mt-4">
+        <h2 class="text-center" id="feedback-heading">Feedback Form</h2>
+        <div class="form-bg-color">
+          <form action="/" method="get">
+            <fieldset>
+              <legend>Your Details</legend>
+              <div class="row">
+                <div class="col-md-6 g-1">
+                  <label for="f-name" class="form-label">First Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="f-name"
+                    name="first_name"
+                    placeholder="First Name"
+                    required />
                 </div>
-                <div class="col-6 p-3 text-center">
-                  <h4>Site Map</h4>
-                  <ul class="footer-item">
-                    <li>
-                      <a class="footer-link" href="#home">Home</a>
-                    </li>
-                    <li>
-                      <a class="footer-link" href="commute.html">Commute</a>
-                    </li>
-                    <li>
-                      <a class="footer-link" href="lunch.html">Lunch</a>
-                    </li>
-                    <li>
-                      <a class="footer-link" href="fitness.html">Fitness</a>
-                    </li>
-                    <li>
-                      <a class="footer-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a class="footer-link" href="feedback.html">Feedback</a>
-                      </li>
-                  </ul>
+                <div class="col-md-6 g-1">
+                  <label for="l-name" class="form-label">Last Name:</label>
+                  <input
+                    type="text"
+                    id="l-name"
+                    name="last_name"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required />
                 </div>
               </div>
               <div class="row">
-                <div class="col text-center">
-                  <p>Copyright &copy; 2023, Chris Grabham</p>
+                <div class="col-md-6 g-1">
+                  <label for="email" class="form-label">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="user_email"
+                    class="form-control"
+                    placeholder="me@email.com"
+                    required />
+                </div>
+                <div class="col-md-6 g-1">
+                  <label for="tel-number" class="form-label"
+                    >Telephone Number:</label
+                  >
+                  <input
+                    type="tel"
+                    id="tel-number"
+                    name="telephone_number"
+                    minlength="8"
+                    maxlength="20"
+                    class="form-control"
+                    placeholder="+44 01234 567890"
+                    required />
                 </div>
               </div>
-            </div>
-          </footer>
+            </fieldset>
+            <fieldset>
+              <legend class="pt-3">Your Feedback</legend>
+              <div class="row">
+                <div class="col-md-6 g-1">
+                  <p>Please select and option:</p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="feedback-type"
+                      id="business"
+                      required />
+                    <label class="form-check-label" for="business">
+                      I would like my business to be listed.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="feedback-type"
+                      id="incorrect-info" />
+                    <label class="form-check-label" for="incorrect-info">
+                      I would like to feedback incorrect information.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-6 g-1">
+                  <p>Please select all pages that apply:</p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="yes"
+                      id="commute" />
+                    <label class="form-check-label" for="commute">
+                      Commuting
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="yes"
+                      id="lunch" />
+                    <label class="form-check-label" for="lunch">
+                      Lunch Recommendations
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="yes"
+                      id="fitness" />
+                    <label class="form-check-label" for="fitness">
+                      Fitness
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col g-1">
+                  <label class="form-label" for="additional-info"
+                    >What is incorrect?</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="additional-info"
+                    placeholder="I would like to change..........."></textarea>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="pt-3">Business Listing</legend>
+              <p>Please complete the below to list your business.</p>
+              <div class="row">
+                <div class="col-md-6 g-1">
+                  <label for="address-1" class="form-label"
+                    >Address Line 1:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address-1"
+                    name="address-line-1"
+                    placeholder="Street Name" />
+                </div>
+                <div class="col-md-6 g-1">
+                  <label for="address-2" class="form-label">Town/City:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address-2"
+                    name="town"
+                    placeholder="Town/City Name" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 g-1">
+                  <label for="address-3" class="form-label">County:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address-3"
+                    name="county"
+                    placeholder="County" />
+                </div>
+                <div class="col-md-6 g-1">
+                  <label for="address-4" class="form-label">Post Code:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address-4"
+                    name="post-code"
+                    placeholder="Post Code" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col g-1">
+                  <label class="form-label" for="web">Website Address:</label>
+                  <input
+                    type="url"
+                    id="web"
+                    name="website"
+                    class="form-control"
+                    placeholder="https://example.com" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 mt-4 mb-4 btn-position">
+                  <input
+                    type="submit"
+                    id="submit"
+                    value="Submit"
+                    class="btn btn-color btn-outline-dark" />
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Footer using bootstrap grid for positioning-->
+    <footer>
+      <div class="container footer-color">
+        <div class="row mt-4">
+          <div class="col-6 p-3 text-center">
+            <h4>Contact Us</h4>
+            <h5>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="icon-spacing">Address</span>
+            </h5>
+            <p class="footer-text">
+              TOWGT:Cardiff<br />1 Best Street<br />Cardiff<br />CF10 5BH
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-envelope"></i
+              ><span class="icon-spacing">Email:towgt@anywhere.co.uk</span>
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-phone"></i
+              ><span class="icon-spacing">01234 567890</span>
+            </p>
+          </div>
+          <div class="col-6 p-3 text-center">
+            <h4>Site Map</h4>
+            <ul class="footer-item">
+              <li>
+                <a class="footer-link" href="#home">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="commute.html">Commute</a>
+              </li>
+              <li>
+                <a class="footer-link" href="lunch.html">Lunch</a>
+              </li>
+              <li>
+                <a class="footer-link" href="fitness.html">Fitness</a>
+              </li>
+              <li>
+                <a class="footer-link" href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a class="footer-link" href="feedback.html">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Copyright &copy; 2023, Chris Grabham</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
