@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Signika+Negative:wght@700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
-/*----------------------------Colors Homepage-----------------------------*/
+/*----------------------------Colors -----------------------------*/
 nav {
     background-color: #00736C;
 }
@@ -58,7 +58,7 @@ body {
     color: #66C6BA;
 }
 
-/*----------------------------Main Section---------------------------*/
+/*----------------------------Main Heading Section---------------------------*/
 
 .image-container {
     background:  #efeee9 no-repeat url(/assets/images/man-briefcase-optimised.png) right top;
@@ -79,24 +79,6 @@ body {
     border: 2px solid black;
 }
 
-@media screen and (max-width: 1200px) {
-    .image-container {
-        background-image: none;
-        height: 250px;
-    }
-    .heading-banner {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .image-container {
-        height: 200px;
-    }
-    .page-name {
-        font-size: 3rem;
-    }
-}
 /*-------------------------------Footer-------------------------------*/
 
 .footer-text {
@@ -118,6 +100,69 @@ body {
     text-decoration: none;
 }
 
-/*-------------------Commuting Page-------------------------------*/
+/*-------------------Lunch Page-------------------------------*/
+
+.lunch-sub-heading {
+    font-size: 2.5rem;
+}
+
+.location-type {
+    font-family: "Courgette", Arial, sans-serif;
+    padding-left: 10px;
+}
 
 
+.featured-tile {
+    background-color: #fdf8b2;
+    margin: 0 auto;
+}
+
+.establishment-name {
+    padding-top: 1rem;
+}
+
+.opening-hours {
+    margin: 0 auto;
+    font-size: 0.85rem;
+}
+
+.lunch-image {
+    width: 100%;
+    height: 250px;
+}
+
+.lunch-button {
+    margin: 1rem;
+}
+
+
+/*------------------Responsiveness------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    .image-container {
+        background-image: none;
+        height: 250px;
+    }
+    .heading-banner {
+        text-align: center;
+    }
+    .featured-tile-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 576px) {
+    .lunch-image {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-container {
+        height: 200px;
+    }
+    .page-name {
+        font-size: 3rem;
+    }
+}
