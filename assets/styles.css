@@ -98,13 +98,6 @@ body {
 
 /*-------------------------------Footer-------------------------------*/
 
-.footer-position {
-  position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
 .footer-text {
   font-size: small;
 }
