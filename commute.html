@@ -1,188 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TOWGT:Cardiff</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body>
-        <!--Bootstrap v5.3 Navbar -->
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand nav-logo" href="#"><img src="/assets/images/logo.svg">TOWGT:Cardiff</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#commute">Commute</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="lunch.html">Lunch</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="fitness.html">Fitness</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>    
-        </header>
-            <!--Main heading of page-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <!--Bootstrap v5.3 Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand nav-logo" href="#"
+            ><img src="/assets/images/logo.svg" />TOWGT:Cardiff</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#commute"
+                  >Commute</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lunch.html">Lunch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fitness.html">Fitness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Main heading of page-->
     <section id="commute" class="heading-banner">
-        <div class="image-container d-flex align-items-center">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <h1 class="main-heading">The Office Workers Guide to:</h1>
-                        <h1 class="page-name">Commuting</h1>
-                        <p class="slogan">The no.1 information guide to working in Cardiff</p>
-                    </div>
-                </div>
+      <div class="image-container d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h1 class="main-heading">The Office Workers Guide to:</h1>
+              <h1 class="page-name">Commuting</h1>
+              <p class="slogan">
+                The no.1 information guide to working in Cardiff
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-        <!--Main information section of page. Bootstrap has been used for layout and components-->
-        <section>
-            <div class="container text-center mt-4">
-                <div class="row row-cols-1 row-cols-lg-2 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="/assets/images/train-station.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h4>Trains</h4>
-                                <p>Cardiff is well-connected to major cities across the UK, making it easily accessible for both work and leisure. With regular and reliable train services, you can sit back, relax, and enjoy the picturesque Welsh countryside as you make your way to the capital city.</p>
-                                <p>Cardiff's train stations are strategically located, ensuring easy access to key destinations, including the bustling city center, vibrant shopping districts, cultural attractions, and the renowned Millennium Stadium.</p>
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Cardiff Central Station
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                            <p>Located in the heart of Cardiff, this iconic station welcomes visitors and commuters with its stunning Victorian architecture and vibrant atmosphere. Serving as a vital transportation hub, Cardiff Central offers excellent connectivity to various destinations across the UK, making it a convenient and accessible travel option.</p>
-                                            <a href="https://tfw.wales/places/stations/cardiff-central" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Cardiff Queen Street
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                            <p>If you are situated within the city or on the valley line commuting to Queen Street by train is a convenient and efficient way to reach your destination. Situated in the heart of the city, this bustling station is well-connected to the various districts and attractions, making it the perfect starting point for your daily commute or exploration of Cardiff. With frequent and reliable train services, you can enjoy a hassle-free journey, bypassing traffic congestion and parking hassles.</p>
-                                            <a href="https://tfw.wales/places/stations/cardiff-queen-street" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Cardiff Bay
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                            <p>Located in the picturesque Cardiff Bay area, this station offers a convenient and scenic route for your daily commute or leisurely visits. With regular train services, you can easily access this vibrant waterfront destination. Avoid the hassle of parking and enjoy a stress-free journey as you arrive at Cardiff Bay Train Station.</p>
-                                            <a href="https://tfw.wales/places/stations/cardiff-bay" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
+    <!--Main information section of page. Bootstrap has been used for layout and components-->
+    <section>
+      <div class="container text-center mt-4">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/images/train-station.jpg"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h4>Trains</h4>
+                <p>
+                  Cardiff is well-connected to major cities across the UK,
+                  making it easily accessible for both work and leisure. With
+                  regular and reliable train services, you can sit back, relax,
+                  and enjoy the picturesque Welsh countryside as you make your
+                  way to the capital city.
+                </p>
+                <p>
+                  Cardiff's train stations are strategically located, ensuring
+                  easy access to key destinations, including the bustling city
+                  center, vibrant shopping districts, cultural attractions, and
+                  the renowned Millennium Stadium.
+                </p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Cardiff Central Station
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Located in the heart of Cardiff, this iconic station
+                          welcomes visitors and commuters with its stunning
+                          Victorian architecture and vibrant atmosphere. Serving
+                          as a vital transportation hub, Cardiff Central offers
+                          excellent connectivity to various destinations across
+                          the UK, making it a convenient and accessible travel
+                          option.
+                        </p>
+                        <a
+                          href="https://tfw.wales/places/stations/cardiff-central"
+                          target="_blank"
+                          ><button
+                            type="button"
+                            class="btn btn-color btn-outline-dark"
+                          >
+                            More Information
+                          </button></a
+                        >
+                      </div>
                     </div>
-                    <div class="col d-flex align-items-stretch">
-                        <div class="card">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19880.01695678381!2d-3.1955012707909733!3d51.476475395588366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scar%20parks%20cardiff%20city%20centre!5e0!3m2!1sen!2suk!4v1685637150733!5m2!1sen!2suk" width="100%" height="432" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <div class="card-body">
-                                <h4>Car Parking</h4>
-                                <p>The M4 motorway connects Cardiff with major cities in the UK, making it easily accessible for both local residents and visitors. While parking in the city center can be challenging, there are various parking facilities available, including multi-story car parks and on-street parking. Be mindful of traffic during peak hours and consider car-sharing or using park-and-ride services for a more sustainable and stress-free commute.</p>
-                                <p>As well as the car parks on the map above, there are a number of local authority car parks available. Click the more information button below for a list of local authority car parks including tariffs.</p>
-                                <a href="https://www.cardiff.gov.uk/ENG/resident/Parking-roads-and-travel/parking/On-street-parking/Pages/On-street-parking.aspx" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Cardiff Queen Street
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          If you are situated within the city or on the valley
+                          line commuting to Queen Street by train is a
+                          convenient and efficient way to reach your
+                          destination. Situated in the heart of the city, this
+                          bustling station is well-connected to the various
+                          districts and attractions, making it the perfect
+                          starting point for your daily commute or exploration
+                          of Cardiff. With frequent and reliable train services,
+                          you can enjoy a hassle-free journey, bypassing traffic
+                          congestion and parking hassles.
+                        </p>
+                        <a
+                          href="https://tfw.wales/places/stations/cardiff-queen-street"
+                          target="_blank"
+                          ><button
+                            type="button"
+                            class="btn btn-color btn-outline-dark"
+                          >
+                            More Information
+                          </button></a
+                        >
+                      </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="/assets/images/bus.jpg" class="card-img-top" alt="Inside a bus">
-                            <div class="card-body">
-                                <h4>Bus</h4>
-                                <p>Commuting in Cardiff by bus offers a convenient and efficient way to navigate the city's bustling streets.Commuters can benefit from frequent services, reliable timetables, and affordable fares, making it an attractive choice for daily travel. Additionally, buses in Cardiff often come equipped with modern amenities, such as free Wi-Fi and comfortable seating, enhancing the overall commuting experience.</p>
-                                <p>For information on fares, routes and timetables click on the more information button below.</p>
-                                <a href="https://www.cardiffbus.com/" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Cardiff Bay
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Located in the picturesque Cardiff Bay area, this
+                          station offers a convenient and scenic route for your
+                          daily commute or leisurely visits. With regular train
+                          services, you can easily access this vibrant
+                          waterfront destination. Avoid the hassle of parking
+                          and enjoy a stress-free journey as you arrive at
+                          Cardiff Bay Train Station.
+                        </p>
+                        <a
+                          href="https://tfw.wales/places/stations/cardiff-bay"
+                          target="_blank"
+                          ><button
+                            type="button"
+                            class="btn btn-color btn-outline-dark"
+                          >
+                            More Information
+                          </button></a
+                        >
+                      </div>
                     </div>
-                    <div class="col d-flex align-items-stretch">
-                        <div class="card">
-                            <img src="/assets/images/bike.jpg" class="card-img-top" alt="A row of bikes">
-                            <div class="card-body">
-                                <h4>Bike Hire</h4>
-                                <p>Bike hire in Cardiff offers a convenient and eco-friendly way to explore the city and its surrounding areas.Cardiff's bike hire system provides a flexible and affordable option for short-term use, whether you're commuting to work or exploring the city's many attractions. The bikes are well-maintained and equipped with safety features, ensuring a comfortable and secure ride.</p>
-                                <p>For information on prices, rental locations and registration click on the more information button below.</p>
-                                <a href="https://www.nextbike.co.uk/en/cardiff/" target="_blank"><button type="button" class="btn btn-color btn-outline-dark">More Information</button></a> 
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-            <!--Footer using bootstrap grid for positioning-->
-    <footer>
-        <div class="container footer-color ">
-            <div class="row mt-4">
-                <div class="col-6 p-3 text-center">
-                    <h4>Contact Us</h4>
-                    <h5><i class="fa-solid fa-location-dot"></i><span class="icon-spacing">Address</span></h5>
-                    <p class="footer-text">TOWGT:Cardiff<br>1 Best Street<br>Cardiff<br>CF10 5BH</p>
-                    <p class="footer-text"><i class="fa-solid fa-envelope"></i><span class="icon-spacing">Email:towgt@anywhere.co.uk</span></p>
-                    <p class="footer-text"><i class="fa-solid fa-phone"></i><span class="icon-spacing">01234 567890</span></p>
-                </div>
-                <div class="col-6 p-3 text-center">
-                    <h4>Site Map</h4>
-                    <ul class="footer-item">
-                        <li>
-                            <a class="footer-link" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="#commute">Commute</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="lunch.html">Lunch</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="fitness.html">Fitness</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="gallery.html">Gallery</a>
-                    </ul>
-                </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19880.01695678381!2d-3.1955012707909733!3d51.476475395588366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scar%20parks%20cardiff%20city%20centre!5e0!3m2!1sen!2suk!4v1685637150733!5m2!1sen!2suk"
+                width="100%"
+                height="432"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="card-body">
+                <h4>Car Parking</h4>
+                <p>
+                  The M4 motorway connects Cardiff with major cities in the UK,
+                  making it easily accessible for both local residents and
+                  visitors. While parking in the city center can be challenging,
+                  there are various parking facilities available, including
+                  multi-story car parks and on-street parking. Be mindful of
+                  traffic during peak hours and consider car-sharing or using
+                  park-and-ride services for a more sustainable and stress-free
+                  commute.
+                </p>
+                <p>
+                  As well as the car parks on the map above, there are a number
+                  of local authority car parks available. Click the more
+                  information button below for a list of local authority car
+                  parks including tariffs.
+                </p>
+                <a
+                  href="https://www.cardiff.gov.uk/ENG/resident/Parking-roads-and-travel/parking/On-street-parking/Pages/On-street-parking.aspx"
+                  target="_blank"
+                  ><button type="button" class="btn btn-color btn-outline-dark">
+                    More Information
+                  </button></a
+                >
+              </div>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <p>Copyright &copy; 2023, Chris Grabham</p>
-                </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/images/bus.jpg"
+                class="card-img-top"
+                alt="Inside a bus"
+              />
+              <div class="card-body">
+                <h4>Bus</h4>
+                <p>
+                  Commuting in Cardiff by bus offers a convenient and efficient
+                  way to navigate the city's bustling streets.Commuters can
+                  benefit from frequent services, reliable timetables, and
+                  affordable fares, making it an attractive choice for daily
+                  travel. Additionally, buses in Cardiff often come equipped
+                  with modern amenities, such as free Wi-Fi and comfortable
+                  seating, enhancing the overall commuting experience.
+                </p>
+                <p>
+                  For information on fares, routes and timetables click on the
+                  more information button below.
+                </p>
+                <a href="https://www.cardiffbus.com/" target="_blank"
+                  ><button type="button" class="btn btn-color btn-outline-dark">
+                    More Information
+                  </button></a
+                >
+              </div>
             </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <img
+                src="/assets/images/bike.jpg"
+                class="card-img-top"
+                alt="A row of bikes"
+              />
+              <div class="card-body">
+                <h4>Bike Hire</h4>
+                <p>
+                  Bike hire in Cardiff offers a convenient and eco-friendly way
+                  to explore the city and its surrounding areas.Cardiff's bike
+                  hire system provides a flexible and affordable option for
+                  short-term use, whether you're commuting to work or exploring
+                  the city's many attractions. The bikes are well-maintained and
+                  equipped with safety features, ensuring a comfortable and
+                  secure ride.
+                </p>
+                <p>
+                  For information on prices, rental locations and registration
+                  click on the more information button below.
+                </p>
+                <a href="https://www.nextbike.co.uk/en/cardiff/" target="_blank"
+                  ><button type="button" class="btn btn-color btn-outline-dark">
+                    More Information
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <!--Footer using bootstrap grid for positioning-->
+    <footer>
+      <div class="container footer-color">
+        <div class="row mt-4">
+          <div class="col-6 p-3 text-center">
+            <h4>Contact Us</h4>
+            <h5>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="icon-spacing">Address</span>
+            </h5>
+            <p class="footer-text">
+              TOWGT:Cardiff<br />1 Best Street<br />Cardiff<br />CF10 5BH
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-envelope"></i
+              ><span class="icon-spacing">Email:towgt@anywhere.co.uk</span>
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-phone"></i
+              ><span class="icon-spacing">01234 567890</span>
+            </p>
+          </div>
+          <div class="col-6 p-3 text-center">
+            <h4>Site Map</h4>
+            <ul class="footer-item">
+              <li>
+                <a class="footer-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="#commute">Commute</a>
+              </li>
+              <li>
+                <a class="footer-link" href="lunch.html">Lunch</a>
+              </li>
+              <li>
+                <a class="footer-link" href="fitness.html">Fitness</a>
+              </li>
+              <li>
+                <a class="footer-link" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Copyright &copy; 2023, Chris Grabham</p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

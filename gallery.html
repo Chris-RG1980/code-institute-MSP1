@@ -1,12 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOWGT:Gallery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <!--Bootstrap v5.3 Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand nav-logo" href="#"
+            ><img src="/assets/images/logo.svg" />TOWGT:Cardiff</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="commute.html">Commute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lunch.html">Lunch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fitness.html">Fitness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#gallery"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Main heading of page-->
+    <section id="gallery" class="heading-banner">
+      <div class="image-container d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h1 class="main-heading">The Office Workers Guide to:</h1>
+              <h1 class="page-name">Cardiff</h1>
+              <p class="slogan">
+                The no.1 information guide to working in Cardiff
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Gallery section of page -->
+    <!--Gallery Page Code used: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/-->
+    <section>
+      <div class="container mt-4">
+        <div class="gallery">
+          <figure class="gallery_item-1">
+            <img
+              src="/assets/images/gallery/ryan-everett-rMbc0mu5wWg-unsplash.jpg"
+              alt="Photo of Neon Cardiff Sign"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-2">
+            <img
+              src="/assets/images/gallery/nick-fewings-IDU1v-rDmQ4-unsplash.jpg"
+              alt="Photo of Cardiff Bay"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-3">
+            <img
+              src="/assets/images/gallery/jonny-gios-SQQ81UjpoW4-unsplash.jpg"
+              alt="Photo of Wales Millennium Centre"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-4">
+            <img
+              src="/assets/images/gallery/charlie-seaman-h32BWCul2mU-unsplash.jpg"
+              alt="Photo of inside the grounds of Cardiff Castle"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-5">
+            <img
+              src="/assets/images/gallery/samuel-meller-5RDZhvS4ibU-unsplash.jpg"
+              alt="Photo of Bute Park"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-6">
+            <img
+              src="/assets/images/gallery/john-scanlan-JOpRmEJZGhY-unsplash.jpg"
+              alt="Photo of Cardiff Barrage at night"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-7">
+            <img
+              src="/assets/images/gallery/taylor-floyd-mews-5CY9gTo0rJk-unsplash.jpg"
+              alt="Photo of the big wheel at Cardiff Bay"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-8">
+            <img
+              src="/assets/images/gallery/grooveland-designs-apekIDd6sT0-unsplash.jpg"
+              alt="Photo of Principality Stadium"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-9">
+            <img
+              src="/assets/images/gallery/shaheem-othupallikkal-KMFDLsDZztc-unsplash.jpg"
+              alt="Photo of shopping arcade"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+          <figure class="gallery_item-10">
+            <img
+              src="/assets/images/gallery/nick-fewings-hb_gXTAYW-g-unsplash.jpg"
+              alt="Photo of Welsh Parliament Building"
+              loading="lazy"
+              class="gallery_img"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--Footer using bootstrap grid for positioning-->
+    <footer>
+      <div class="container footer-color">
+        <div class="row mt-4">
+          <div class="col-6 p-3 text-center">
+            <h4>Contact Us</h4>
+            <h5>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="icon-spacing">Address</span>
+            </h5>
+            <p class="footer-text">
+              TOWGT:Cardiff<br />1 Best Street<br />Cardiff<br />CF10 5BH
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-envelope"></i
+              ><span class="icon-spacing">Email:towgt@anywhere.co.uk</span>
+            </p>
+            <p class="footer-text">
+              <i class="fa-solid fa-phone"></i
+              ><span class="icon-spacing">01234 567890</span>
+            </p>
+          </div>
+          <div class="col-6 p-3 text-center">
+            <h4>Site Map</h4>
+            <ul class="footer-item">
+              <li>
+                <a class="footer-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="commute.html">Commute</a>
+              </li>
+              <li>
+                <a class="footer-link" href="lunch.html">Lunch</a>
+              </li>
+              <li>
+                <a class="footer-link" href="fitness.html">Fitness</a>
+              </li>
+              <li>
+                <a class="footer-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Copyright &copy; 2023, Chris Grabham</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
