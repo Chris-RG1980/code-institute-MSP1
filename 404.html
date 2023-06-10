@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <!--Bootstrap v5.3 Navbar -->
     <header>
       <nav class="navbar navbar-expand-lg">
@@ -75,8 +75,25 @@
         </div>
       </div>
     </section>
-    <!--Footer using bootstrap grid for positioning-->
-    <footer>
+    <!--Main content of page. Layout created using bootstrap 5 grid with card component-->
+    <section>
+        <div class="container text-center mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                        <img src="/assets/images/files.webp" class="card-img-top" alt="A stack of closed files">
+                        <div class="card-body">
+                            <h2>Page Not Found!</h2>
+                            <p>Oops! It seems like the page you're looking for has gone on a temporary vacation. We apologize for the inconvenience and suggest trying another destination within our website.</p>
+                            <a href="index.html" class="btn btn-color btn-outline-dark">Home Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer using bootstrap 5 grid for positioning-->
+    <footer class="mt-auto">
       <div class="container footer-color">
         <div class="row mt-4">
           <div class="col-6 p-3 text-center">
