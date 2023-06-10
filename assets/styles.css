@@ -285,6 +285,12 @@ fieldset {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .gallery {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .image-container {
     height: 200px;
