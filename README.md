@@ -40,10 +40,10 @@ Link to live project
 ## User Stories
 #### New User
 1. As a new office worker in Cardiff I want a website that is clear and well organized.
-2. As a bew office worker in Cardiff I want all aspects of the website to be fully functional. 
+2. As a new office worker in Cardiff I want all aspects of the website to be fully functional. 
 3. As a new office worker in Cardiff I want to find out which mode of transport is suitable for me.
 4. As a new office worker in Cardiff I want to find out what the city looks like.
-5. As a new office worker in Cardiff I want to b able to find information about other facilities in the city.
+5. As a new office worker in Cardiff I want to be able to find information about other facilities in the city.
 6. As a new business in Cardiff I would like to advertise on the website.
 #### Returning User
 1. As an office worker in Cardiff I want to be able to find alternative modes of transport should my usual mode not be available.
@@ -54,7 +54,7 @@ Link to live project
 1. As an office worker in cardiff I would like real-time notifications about disruption to public transport in the city.
 2. As an office worker in cardiff I would like discount codes and offers from businesses around the city.
 3. As an office worker in Cardiff I would like to know what events are upcoming. 
-4. As an office worker in cardiff I would like real-time notifications of available car parking spaces.
+4. As an office worker in cardiff I would like real-time notifications about available car parking spaces.
 5. As a business in Cardiff I would like to be able to communicate directly with my customers. 
 ## User Flows
 #### New User
