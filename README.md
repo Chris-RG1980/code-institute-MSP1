@@ -9,6 +9,9 @@ Link to live project
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
   - [Contents](#contents)
   - [User Stories](#user-stories)
+  - [User Flows](#user-flows)
+    - [New user](#new-user)
+    - [Returning user](#returning-user)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
@@ -32,7 +35,13 @@ Link to live project
     - [Text, Images \& Media](#text-images--media)
 ***
 ## User Stories
-![Image](resources/user-story.png)
+
+## User Flows
+### New user
+![Image](/resources/new-user-flow.png)
+### Returning user
+![Image](/resources/returning-user-flow.png)
+
 ***
 ## Features
 This project is designed to provide an informative and useful resource to office workers.
