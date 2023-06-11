@@ -9,9 +9,12 @@ Link to live project
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
   - [Contents](#contents)
   - [User Stories](#user-stories)
+      - [New User](#new-user)
+      - [Returning User](#returning-user)
+      - [Returning User - Future Functionality](#returning-user---future-functionality)
   - [User Flows](#user-flows)
-    - [New user](#new-user)
-    - [Returning user](#returning-user)
+      - [New User](#new-user-1)
+      - [Returning User](#returning-user-1)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
@@ -35,11 +38,28 @@ Link to live project
     - [Text, Images \& Media](#text-images--media)
 ***
 ## User Stories
-
+#### New User
+1. As a new office worker in Cardiff I want a website that is clear and well organized.
+2. As a bew office worker in Cardiff I want all aspects of the website to be fully functional. 
+3. As a new office worker in Cardiff I want to find out which mode of transport is suitable for me.
+4. As a new office worker in Cardiff I want to find out what the city looks like.
+5. As a new office worker in Cardiff I want to b able to find information about other facilities in the city.
+6. As a new business in Cardiff I would like to advertise on the website.
+#### Returning User
+1. As an office worker in Cardiff I want to be able to find alternative modes of transport should my usual mode not be available.
+2. As an office worker in Cardiff I want to find new places to take lunch.
+3. As an office worker in Cardiff I would like the information supplied to be accurate with an option to feedback any incorrect information.
+4. As an office worker in Cardiff I would like to be able to quickly navigate through the website. 
+#### Returning User - Future Functionality
+1. As an office worker in cardiff I would like real-time notifications about disruption to public transport in the city.
+2. As an office worker in cardiff I would like discount codes and offers from businesses around the city.
+3. As an office worker in Cardiff I would like to know what events are upcoming. 
+4. As an office worker in cardiff I would like real-time notifications of available car parking spaces.
+5. As a business in Cardiff I would like to be able to communicate directly with my customers. 
 ## User Flows
-### New user
+#### New User
 ![Image](/resources/new-user-flow.png)
-### Returning user
+#### Returning User
 ![Image](/resources/returning-user-flow.png)
 
 ***
@@ -58,6 +78,7 @@ This project is designed to provide an informative and useful resource to office
     2. Research feasibility and if feasible implement real-time availability of car park spaces around the city.
     3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
     4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
+    5. Create a feature where businesses and customers can communicate directly. 
 ***
 ## Typography and Color Scheme
 ### Typography
