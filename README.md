@@ -52,9 +52,9 @@ This project is designed to provide an informative and useful resource to office
 ***
 ## Typography and Color Scheme
 ### Typography
-For the body of the website, the elegant and legible Source Sans Pro font, selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
+For the body of the website, the elegant and legible Source Sans Pro font has been selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
 
-To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the user's device does not support the preferred font.
+To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the users device does not support the preferred font.
 
 In situations where both Source Sans Pro and Arial are unavailable, the browser will default to the Sans-Serif font family, ensuring that the text remains clear and easily readable. 
 
