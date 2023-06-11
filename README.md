@@ -52,7 +52,19 @@ This project is designed to provide an informative and useful resource to office
 ***
 ## Typography and Color Scheme
 ### Typography
+For the body of the website, the elegant and legible Source Sans Pro font, selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
+
+To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the user's device does not support the preferred font.
+
+In situations where both Source Sans Pro and Arial are unavailable, the browser will default to the Sans-Serif font family, ensuring that the text remains clear and easily readable. 
+
+The Signika Negative has been used when creating the logo. The Courgette font is used within the main heading creating a balanced and visually engaging look that enhances the overall design of the website. 
+
+By utilizing these fonts strategically, the project achieves a distinct and memorable brand identity. 
 ### Color Scheme
+In this project, the color palette has been selected to achieve a modern and clean aesthetic that is both visually pleasing and aligned with the preferences of the target audience.
+
+![Image](resources/colors.png)
 ***
 ## Wireframes
 [Mobile Home Page](resources/mobile-home-page.png)  
