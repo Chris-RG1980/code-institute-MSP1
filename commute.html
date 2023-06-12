@@ -28,7 +28,9 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand nav-logo" href="/"
-            ><img src="/assets/images/logo.svg" />TOWGT:Cardiff</a
+            ><img
+              src="/assets/images/logo.svg"
+              alt="Logo for the office workers guide to Cardiff" />TOWGT:Cardiff</a
           >
           <button
             class="navbar-toggler"
@@ -45,7 +47,12 @@
             id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a
+                  class="nav-link"
+                  href="index.html"
+                  aria-label="Go to the home page (opens in this tab)"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#commute"
@@ -53,16 +60,36 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="lunch.html">Lunch</a>
+                <a
+                  class="nav-link"
+                  href="lunch.html"
+                  aria-label="Go to the lunch recommendations page (opens in this tab)"
+                  >Lunch</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="fitness.html">Fitness</a>
+                <a
+                  class="nav-link"
+                  href="fitness.html"
+                  aria-label="Go to the fitness page (opens in this tab)"
+                  >Fitness</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a
+                  class="nav-link"
+                  href="gallery.html"
+                  aria-label="Go to the photo gallery (opens in this tab)"
+                  >Gallery</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="feedback.html">Feedback</a>
+                <a
+                  class="nav-link"
+                  href="feedback.html"
+                  aria-label="Go to the feedback page (opens in this tab)"
+                  >Feedback</a
+                >
               </li>
             </ul>
           </div>
@@ -95,9 +122,9 @@
               <img
                 src="/assets/images/train-station.webp"
                 class="card-img-top"
-                alt="" />
+                alt="A photo of a train in a station" />
               <div class="card-body">
-                <h4>Trains</h4>
+                <h2>Trains</h2>
                 <p>
                   Cardiff is well-connected to major cities across the UK,
                   making it easily accessible for both work and leisure. With
@@ -112,9 +139,9 @@
                   the renowned Millennium Stadium.
                 </p>
                 <!--Bootstrap v5.3 accordion component used to categorize the train stations-->
-                <div class="accordion" id="accordionExample">
+                <div class="accordion" id="travel-accordion">
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
+                    <h3 class="accordion-header" id="cardiff-central">
                       <button
                         class="accordion-button"
                         type="button"
@@ -124,12 +151,12 @@
                         aria-controls="collapseOne">
                         Cardiff Central Station
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseOne"
                       class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample">
+                      aria-labelledby="cardiff-central"
+                      data-bs-parent="#travel-accordion">
                       <div class="accordion-body">
                         <p>
                           Located in the heart of Cardiff, this iconic station
@@ -143,6 +170,7 @@
                         <a
                           href="https://tfw.wales/places/stations/cardiff-central"
                           target="_blank"
+                          aria-label="Go to the Cardiff Central Station webpage (opens in a new tab)"
                           class="btn btn-color btn-outline-dark">
                           More Information
                         </a>
@@ -150,7 +178,7 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
+                    <h3 class="accordion-header" id="cardiff-queen">
                       <button
                         class="accordion-button collapsed"
                         type="button"
@@ -160,12 +188,12 @@
                         aria-controls="collapseTwo">
                         Cardiff Queen Street
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseTwo"
                       class="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample">
+                      aria-labelledby="cardiff-queen"
+                      data-bs-parent="#travel-accordion">
                       <div class="accordion-body">
                         <p>
                           If you are situated within the city or on the valley
@@ -182,6 +210,7 @@
                         <a
                           href="https://tfw.wales/places/stations/cardiff-queen-street"
                           target="_blank"
+                          aria-label="Go to the Cardiff Queen Street Station webpage (opens in a new tab)"
                           class="btn btn-color btn-outline-dark">
                           More Information
                         </a>
@@ -189,7 +218,7 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h3 class="accordion-header" id="cardiff-bay">
                       <button
                         class="accordion-button collapsed"
                         type="button"
@@ -199,12 +228,12 @@
                         aria-controls="collapseThree">
                         Cardiff Bay
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseThree"
                       class="accordion-collapse collapse"
-                      aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample">
+                      aria-labelledby="cardiff-bay"
+                      data-bs-parent="#travel-accordion">
                       <div class="accordion-body">
                         <p>
                           Located in the picturesque Cardiff Bay area, this
@@ -218,6 +247,7 @@
                         <a
                           href="https://tfw.wales/places/stations/cardiff-bay"
                           target="_blank"
+                          aria-label="Go to the Cardiff Bay Station webpage (opens in a new tab)"
                           class="btn btn-color btn-outline-dark">
                           More Information
                         </a>
@@ -231,16 +261,17 @@
           <!--Car parking information card with embedded google map and link to local authority car parking-->
           <div class="col d-flex align-items-stretch">
             <div class="card">
+              <!--Aria-hidden added to iframe remove it for users of assistive technology-->
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19880.01695678381!2d-3.1955012707909733!3d51.476475395588366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scar%20parks%20cardiff%20city%20centre!5e0!3m2!1sen!2suk!4v1685637150733!5m2!1sen!2suk"
                 width="100%"
                 height="432"
                 style="border: 0"
                 allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade"
+                aria-hidden="true"></iframe>
               <div class="card-body">
-                <h4>Car Parking</h4>
+                <h2>Car Parking</h2>
                 <p>
                   The M4 motorway connects Cardiff with major cities in the UK,
                   making it easily accessible for both local residents and
@@ -251,15 +282,23 @@
                   park-and-ride services for a more sustainable and stress-free
                   commute.
                 </p>
-                <p>
-                  As well as the car parks on the map above, there are a number
-                  of local authority car parks available. Click the more
-                  information button below for a list of local authority car
-                  parks including tariffs.
+                <!--Google maps link added as an alternative to the map for users of assistive technology-->
+                <a
+                  href="https://www.google.com/maps/search/car+parks+in+cardiff+city+centre/@51.4824487,-3.1781324,15z/data=!3m1!4b1?entry=ttu"
+                  target="_blank"
+                  aria-label="Go to private car parks in google maps (opens in a new tab)"
+                  class="btn btn-color btn-outline-dark">
+                  Google Maps
+                </a>
+                <p class="mt-3">
+                  There are a number of local authority car parks available.
+                  Click the more information button below for a list of local
+                  authority car parks including tariffs.
                 </p>
                 <a
                   href="https://www.cardiff.gov.uk/ENG/resident/Parking-roads-and-travel/parking/On-street-parking/Pages/On-street-parking.aspx"
                   target="_blank"
+                  aria-label="Go to car parking page of Cardiff council website (opens in a new tab)"
                   class="btn btn-color btn-outline-dark">
                   More Information
                 </a>
@@ -272,9 +311,9 @@
               <img
                 src="/assets/images/bus.webp"
                 class="card-img-top"
-                alt="Inside a bus" />
+                alt="A photo on board a bus" />
               <div class="card-body">
-                <h4>Bus</h4>
+                <h2>Bus</h2>
                 <p>
                   Commuting in Cardiff by bus offers a convenient and efficient
                   way to navigate the city's bustling streets.Commuters can
@@ -291,6 +330,7 @@
                 <a
                   href="https://www.cardiffbus.com/"
                   target="_blank"
+                  aria-label="Go to the Cardiff bus website (opens in a new tab)"
                   class="btn btn-color btn-outline-dark">
                   More Information
                 </a>
@@ -303,9 +343,9 @@
               <img
                 src="/assets/images/bike.webp"
                 class="card-img-top"
-                alt="A row of bikes" />
+                alt="a photo of a row of bikes" />
               <div class="card-body">
-                <h4>Bike Hire</h4>
+                <h2>Bike Hire</h2>
                 <p>
                   Bike hire in Cardiff offers a convenient and eco-friendly way
                   to explore the city and its surrounding areas.Cardiff's bike
@@ -322,6 +362,7 @@
                 <a
                   href="https://www.nextbike.co.uk/en/cardiff/"
                   target="_blank"
+                  aria-label="Go to the next bike website (opens in a new tab)"
                   class="btn btn-color btn-outline-dark">
                   More Information
                 </a>
@@ -336,11 +377,11 @@
       <div class="container footer-color">
         <div class="row mt-4">
           <div class="col-6 p-3 text-center">
-            <h4>Contact Us</h4>
-            <h5>
+            <h3>Contact Us</h3>
+            <h4>
               <i class="fa-solid fa-location-dot"></i
               ><span class="icon-spacing">Address</span>
-            </h5>
+            </h4>
             <p class="footer-text">
               TOWGT:Cardiff<br />1 Best Street<br />Cardiff<br />CF10 5BH
             </p>
@@ -357,22 +398,52 @@
             <h4>Site Map</h4>
             <ul class="footer-item">
               <li>
-                <a class="footer-link" href="index.html">Home</a>
+                <a
+                  class="footer-link"
+                  href="index.html"
+                  aria-label="Go to the home page (opens in this tab)"
+                  >Home</a
+                >
               </li>
               <li>
-                <a class="footer-link" href="#commute">Commute</a>
+                <a
+                  class="footer-link"
+                  href="#commute"
+                  aria-label="Go back to the top of the page"
+                  >Commute</a
+                >
               </li>
               <li>
-                <a class="footer-link" href="lunch.html">Lunch</a>
+                <a
+                  class="footer-link"
+                  href="lunch.html"
+                  aria-label="Go to the lunch recommendations page (opens in this tab)"
+                  >Lunch</a
+                >
               </li>
               <li>
-                <a class="footer-link" href="fitness.html">Fitness</a>
+                <a
+                  class="footer-link"
+                  href="fitness.html"
+                  aria-label="Go to the fitness page (opens in this tab)"
+                  >Fitness</a
+                >
               </li>
               <li>
-                <a class="footer-link" href="gallery.html">Gallery</a>
+                <a
+                  class="footer-link"
+                  href="gallery.html"
+                  aria-label="Go to the photo gallery (opens in this tab)"
+                  >Gallery</a
+                >
               </li>
               <li>
-                <a class="footer-link" href="feedback.html">Feedback</a>
+                <a
+                  class="footer-link"
+                  href="feedback.html"
+                  aria-label="Go to the feedback page (opens in this tab)"
+                  >Feedback</a
+                >
               </li>
             </ul>
           </div>
