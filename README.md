@@ -43,6 +43,7 @@ Link to live project
       - [Fitness Page](#fitness-page)
       - [Gallery Page](#gallery-page)
       - [404 Page](#404-page)
+    - [Other Credits](#other-credits)
 ***
 ## User Stories
 #### New User
@@ -167,6 +168,7 @@ HTML and CSS were used to create this website.
 ***
 ## Credits
 ### Code
+* Gallery Page - (https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 ### Text, Images & Media
 #### Index Page
 Office worker -  Photo by Marten Bjork on Unsplash\
@@ -180,13 +182,13 @@ Train Station - Photo by JJ Jordan on Unsplash\
 Bus - Photo by Mitchell Johnson on Unsplash\
 Bike - Photo by Nick Sokolov on Unsplash
 #### Lunch Page
-Restaurants:-\
+**Restaurants:-**\
 Pasture: Photo by Jason Leung on Unsplash\
 Burgers: Photo by Dan Gold on Unsplash\
 Mexican: Photo by Hybrid Storytellers on Unsplash\
 Cosy Club:Photo by Sarah Götze on Unsplash
 
-Sandwich & Coffee Shops:-\
+**Sandwich & Coffee Shops:-**\
 Sandwich Featured Image :Photo by Luis Covarrubias on Unsplash\
 Blue coffee: Photo by Laureen Missaire on Unsplash\
 New York Deli: Photo by Mae Mu on Unsplash\
@@ -207,4 +209,7 @@ Park - Photo by Samuel Meller on Unsplash\
 Stadium View - Photo by Grooveland Designs on Unsplash
 #### 404 Page
 Files - Photo by Sear Greyson on Unsplash
+### Other Credits
+* Mentor Support
+* Favicon - (https://www.lcn.com/blog/beginners-guide-favicons/)
 ***
