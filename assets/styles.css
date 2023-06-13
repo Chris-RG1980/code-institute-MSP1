@@ -314,7 +314,7 @@ fieldset {
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 350px) {
   .image-container {
     padding-top: 1rem;
   }
