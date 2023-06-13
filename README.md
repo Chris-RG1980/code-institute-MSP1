@@ -18,6 +18,7 @@ Link to live project
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
+    - [Accessibility](#accessibility)
   - [Typography and Color Scheme](#typography-and-color-scheme)
     - [Typography](#typography)
     - [Color Scheme](#color-scheme)
@@ -79,6 +80,9 @@ This project is designed to provide an informative and useful resource to office
     3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
     4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
     5. Create a feature where businesses and customers can communicate directly. 
+
+### Accessibility
+To enhance visibility for individuals with visual impairments, I have selected color palettes that offer contrast. This deliberate choice enables better readability and comprehension of the content. Additionally, I have taken great care to provide descriptive alternative text for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Furthermore, I have ensured the accessibility of interactive elements by labelling all links and form elements appropriately.  
 ***
 ## Typography and Color Scheme
 ### Typography
