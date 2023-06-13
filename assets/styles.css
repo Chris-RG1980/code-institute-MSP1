@@ -313,3 +313,9 @@ fieldset {
     column-gap: 0;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .image-container {
+    padding-top: 1rem;
+  }
+}
