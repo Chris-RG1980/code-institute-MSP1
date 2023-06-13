@@ -97,6 +97,8 @@ In this project, the color palette has been selected to achieve a modern and cle
 ![Image](resources/colors.png)
 ***
 ## Wireframes
+During the coding process for the desktop home page, I encountered a challenge while attempting to accommodate all of the necessary information on the screen, as depicted in the corresponding wireframe. It was at this point that I realized I had inadvertently modified the size of the desktop wireframe template, this granted me additional screen space within the wireframe. Consequently, I had to reconsider my design approach for the desktop version, aiming to enhance its flow and generate more vertical space to accommodate the content more effectively. This adjustment allowed me to create a more cohesive and user-friendly desktop layout.
+
 [Mobile Home Page](resources/mobile-home-page.png)  
 [Mobile Travel Page 1](resources/mobile-travel-page.png)  
 [Mobile Travel Page 2](resources/mobile-travel-page-2.png)  
