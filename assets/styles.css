@@ -167,12 +167,14 @@ body {
   height: 100px;
 }
 
-/*---------------Gallery Page Code used: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/---------------------*/
+/*---------------Page Headings---------------------*/
 
-#gallery-heading {
+.page-headings {
   font-family: "Courgette", Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
+
+/*---------------Gallery Page Code used: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/---------------------*/
 
 .gallery {
   display: grid;
@@ -267,9 +269,6 @@ fieldset {
   margin: 1.5rem 2.5rem 0;
 }
 
-#feedback-heading {
-  font-size: 2.5rem;
-}
 /*------------------Responsiveness------------------------------*/
 
 @media screen and (max-width: 1200px) {
