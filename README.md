@@ -24,8 +24,8 @@ Link to live project
     - [Color Scheme](#color-scheme)
   - [Wireframes](#wireframes)
   - [Technology](#technology)
-    - [Technologies Used](#technologies-used)
-    - [Programs Used](#programs-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
     - [Code Validation (HTML)](#code-validation-html)
     - [Code Validation (CSS)](#code-validation-css)
@@ -132,10 +132,22 @@ During the coding process for the desktop home page, I encountered a challenge w
 [Desktop 404 Page](resources/desktop-404-page.png)
 ***
 ## Technology
-### Technologies Used
-### Programs Used
-* Cardboard It (https://cardboardit.com/) - User Story Mapping Tool
-* Balsamiq Wireframes (https://balsamiq.com/) - Wireframes Tool
+### Languages Used
+HTML and CSS were used to create this website.
+### Frameworks, Libraries & Programs Used
+* [Cardboard It](https://cardboardit.com/) - To create user story flows
+* [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes
+* Git - Version Control.
+* [Github](https://github.com/) - To store repository and deploy site
+* [Google Fonts](https://fonts.google.com/) - To select and Import fonts
+* [Font Awesome](https://fontawesome.com/) - To selecting and Import icons
+* [Coolors](https://coolors.co/) - To create a color palette
+* [Photoshop](https://www.adobe.com/uk/products/photoshop.html) - To create logo image
+* [removal.ai](https://removal.ai) - To remove background from banner image.
+* [Cloud Convert](https://cloudconvert.com/) - To convert image files to webp and ico
+* [Tinypng](https://tinypng.com/) - Image Optimization
+* [Bootstrap v5.3](https://getbootstrap.com/) - CSS Framework 
+* [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Web Developer Tools
 ***
 ## Testing
 ### Code Validation (HTML) 
