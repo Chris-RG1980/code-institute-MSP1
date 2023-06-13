@@ -169,6 +169,11 @@ body {
 
 /*---------------Gallery Page Code used: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/---------------------*/
 
+#gallery-heading {
+  font-family: "Courgette", Arial, sans-serif;
+  font-size: 3rem;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
