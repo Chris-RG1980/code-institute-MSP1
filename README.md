@@ -37,6 +37,12 @@ Link to live project
   - [Credits](#credits)
     - [Code](#code)
     - [Text, Images \& Media](#text-images--media)
+      - [Index Page](#index-page)
+      - [Commute Page](#commute-page)
+      - [Lunch Page](#lunch-page)
+      - [Fitness Page](#fitness-page)
+      - [Gallery Page](#gallery-page)
+      - [404 Page](#404-page)
 ***
 ## User Stories
 #### New User
@@ -162,4 +168,43 @@ HTML and CSS were used to create this website.
 ## Credits
 ### Code
 ### Text, Images & Media
+#### Index Page
+Office worker -  Photo by Marten Bjork on Unsplash\
+Yellow Train - Photo by Waldemar on Unsplash\
+Lunch - Photo by Breakslow on Unsplash\
+Gym - Photo by Craig Lovelidge on Unsplash\
+Gallery - Photo by Michal Matlon on Unsplash\
+YouTube Video - This is Legendary. This is Cardiff. By Visit Wales
+#### Commute Page
+Train Station - Photo by JJ Jordan on Unsplash\
+Bus - Photo by Mitchell Johnson on Unsplash\
+Bike - Photo by Nick Sokolov on Unsplash
+#### Lunch Page
+Restaurants:-\
+Pasture: Photo by Jason Leung on Unsplash\
+Burgers: Photo by Dan Gold on Unsplash\
+Mexican: Photo by Hybrid Storytellers on Unsplash\
+Cosy Club:Photo by Sarah Götze on Unsplash
+
+Sandwich & Coffee Shops:-\
+Sandwich Featured Image :Photo by Luis Covarrubias on Unsplash\
+Blue coffee: Photo by Laureen Missaire on Unsplash\
+New York Deli: Photo by Mae Mu on Unsplash\
+Coffee Machine: Photo by Kevin Schmid on Unsplash
+#### Fitness Page
+PureGym Logo- stickpng.com\
+Gym Group  - stickpng.com
+#### Gallery Page
+Neon Cardiff - Photo by Ryan Everett on Unsplash\
+Cardiff Bay - Photo by Nick Fewings on Unsplash\
+Millennium Center - Photo by Jonny Gios on Unsplash\
+Cardiff Bay Wheel - Photo by Taylor Floyd Mews on Unsplash\
+Arcade - Photo by Shaheem Othupallikkal on Unsplash\
+Castle - Photo by Charlie Seaman on Unsplash\
+Welsh Parliament - Photo by Nick Fewings on Unsplash\
+Night - Photo by John Scanlan on Unsplash\
+Park - Photo by Samuel Meller on Unsplash\
+Stadium View - Photo by Grooveland Designs on Unsplash
+#### 404 Page
+Files - Photo by Sear Greyson on Unsplash
 ***
