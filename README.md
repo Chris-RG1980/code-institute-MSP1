@@ -27,12 +27,6 @@ Link to live project
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
-    - [Code Validation (HTML)](#code-validation-html)
-    - [Code Validation (CSS)](#code-validation-css)
-    - [Lighthouse](#lighthouse)
-    - [Bug Fixes](#bug-fixes)
-    - [Supported screens and Browsers](#supported-screens-and-browsers)
-    - [Testing User Stories](#testing-user-stories)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Code](#code)
@@ -157,12 +151,7 @@ HTML and CSS were used to create this website.
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Web Developer Tools
 ***
 ## Testing
-### Code Validation (HTML) 
-### Code Validation (CSS)
-### Lighthouse
-### Bug Fixes
-### Supported screens and Browsers
-### Testing User Stories
+Please see [TESTING.md](/TESTING.md) for all testing performed.
 ***
 ## Deployment
 ***
