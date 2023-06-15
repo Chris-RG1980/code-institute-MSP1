@@ -28,10 +28,13 @@
 ---
 ## Responsiveness
 ### Mobile Screenshots
+![Image](/resources/testing/mobile-responsive.png)
 ### Tablet Screenshots
+![Image](/resources/testing/tablet-responsive.png)
 ### Desktop Screenshots
+![Image](/resources/testing/desktop-responsive.png)
 ### Summary
-
+![Image](/resources/testing/responsive-summary.png)
 
 ---
 ## Automated Testing
