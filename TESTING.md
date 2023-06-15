@@ -12,6 +12,8 @@
     - [Summary](#summary)
   - [Automated Testing](#automated-testing)
     - [W3C Validator](#w3c-validator)
+    - [Validation Summary](#validation-summary)
+  - [](#)
     - [Lighthouse](#lighthouse)
   - [Browser Compatibility](#browser-compatibility)
   - [Manual Testing](#manual-testing)
@@ -39,6 +41,17 @@
 ---
 ## Automated Testing
 ### W3C Validator
+[Home Page Validation](/resources/testing/validations/index-validation.png)\
+[Commute Page Validation](/resources/testing/validations/commute-validation.png)\
+[Lunch Page Validation](/resources/testing/validations/lunch-validation.png)\
+[Fitness Page Validation](/resources/testing/validations/fittness-validation.png)\
+[Gallery Page Validation](/resources/testing/validations/gallery-validation.png)\
+[Feedback Page Validation](/resources/testing/validations/feedback-validation.png)\
+[Thank You Page Validation](/resources/testing/validations/thank-you-validation.png)\
+[404 Page Validation](/resources/testing/validations/error-validation.png)\
+[CSS Validation](/resources/testing/validations/css-validation.png)
+### Validation Summary
+![Image](/resources/testing/validations/validations.png)
 ---
 ### Lighthouse
 ---
