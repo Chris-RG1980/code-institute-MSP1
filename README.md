@@ -72,7 +72,7 @@ Link to live project
 ## Features
 This project is designed to provide an informative and useful resource to office workers.
 ### Existing Features
- 1. Information Hub: Develop a user-friendly website that serves as a centralized hub for office workers to access essential information about working in Cardiff. The website will feature well-organized sections covering travel, lunch options, nearby gyms, parks, and upcoming events.
+ 1. Information Hub: Develop a user-friendly website that serves as a centralized hub for office workers to access essential information about working in Cardiff. The website will feature well-organized sections covering travel, lunch options and nearby gyms.
  2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively. 
  3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.
  4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.
