@@ -1,5 +1,5 @@
 # The Office Workers Guide To: Cardiff - Testing
-Image
+![Image](resources/mockups.png)
 
 ---
 ## Contents
