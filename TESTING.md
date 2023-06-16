@@ -62,6 +62,8 @@
 | Gallery Page | During the initial testing of the gallery page, a performance score of 74 was obtained. Upon analysing the results, it became evident that the issue was with the large size of the images used. To address this, I obtained smaller versions of the same images and applied compression to reduce their file sizes. Subsequently, the original images were removed and replaced with the new, optimized ones. Upon retesting the page, the performance score significantly improved to 99. ![Image](resources/testing/lighthouse-gallery-updated.png)   |
 ---
 ## Browser Compatibility
+![Image](resources/testing/browser-testing.png)
+
 ---
 ## Manual Testing
 ### Testing User Stories
