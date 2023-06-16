@@ -13,9 +13,7 @@
   - [Automated Testing](#automated-testing)
     - [W3C Validator](#w3c-validator)
     - [Validation Summary](#validation-summary)
-  - [](#)
     - [Lighthouse](#lighthouse)
-  - [| Gallery Page | During the initial testing of the gallery page, a performance score of 74 was obtained. Upon analysing the results, it became evident that the issue was with the large size of the images used. To address this, I obtained smaller versions of the same images and applied compression to reduce their file sizes. Subsequently, the original images were removed and replaced with the new, optimized ones. Upon retesting the page, the performance score significantly improved to 99.    |](#-gallery-page--during-the-initial-testing-of-the-gallery-page-a-performance-score-of-74-was-obtained-upon-analysing-the-results-it-became-evident-that-the-issue-was-with-the-large-size-of-the-images-used-to-address-this-i-obtained-smaller-versions-of-the-same-images-and-applied-compression-to-reduce-their-file-sizes-subsequently-the-original-images-were-removed-and-replaced-with-the-new-optimized-ones-upon-retesting-the-page-the-performance-score-significantly-improved-to-99----)
   - [Browser Compatibility](#browser-compatibility)
   - [Manual Testing](#manual-testing)
     - [Testing User Stories](#testing-user-stories)
@@ -24,7 +22,6 @@
     - [Full Testing](#full-testing)
       - [Internal](#internal)
       - [External](#external)
-  - [| The Gym Group Link |](#-the-gym-group-link-)
   - [Bugs](#bugs)
     - [Solved Bugs](#solved-bugs)
     - [Known Bugs](#known-bugs)
@@ -53,13 +50,15 @@
 [CSS Validation](/resources/testing/validations/css-validation.png)
 ### Validation Summary
 ![Image](/resources/testing/validations/validations.png)
+
 ---
 ### Lighthouse
 ![Image](resources/testing/lighthouse-tests.png)
 | Page | Observations |
 |:---------- | :--------------- |
 | Home Page | In order to address performance issues related to the embedded YouTube video and improve lighthouse testing results, it is recommended to consider using facades. Additional information can be found in the Google documentation, specifically in the section on third-party facades (https://developer.chrome.com/en/docs/lighthouse/performance/third-party-facades/). However, despite attempting to implement the recommended solution, I encountered difficulties in getting the video to render correctly. As a result, I have decided to stick with the original embedded code, which renders correctly and remains responsive.  |
-| Gallery Page | During the initial testing of the gallery page, a performance score of 74 was obtained. Upon analysing the results, it became evident that the issue was with the large size of the images used. To address this, I obtained smaller versions of the same images and applied compression to reduce their file sizes. Subsequently, the original images were removed and replaced with the new, optimized ones. Upon retesting the page, the performance score significantly improved to 99. ![Image](resources/testing/lighthouse-gallery-updated.png)   |
+| Gallery Page | During the initial testing of the gallery page, a performance score of 74 was obtained. Upon analysing the results, it became evident that the issue was with the large size of the images used. To address this, I obtained smaller versions of the same images and applied compression to reduce their file sizes. Subsequently, the original images were removed and replaced with the new, optimized ones. Upon retesting the page, the performance score significantly improved to 99. ![Image](resources/testing/lighthouse-gallery-updated.png)|
+
 ---
 ## Browser Compatibility
 ![Image](resources/testing/browser-testing.png)
@@ -137,6 +136,7 @@
 |**_Fitness_** |
 | PureGym Link |
 | The Gym Group Link |
+
 ---
 ## Bugs
 ### Solved Bugs
