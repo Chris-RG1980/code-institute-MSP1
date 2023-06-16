@@ -89,28 +89,28 @@
 | **_Navbar_** |
 | Logo | When clicked the user will be redirected to the home page.|Clicked Logo on all pages. | Redirected to the home page. | Pass |
 | Home Link | When clicked the user will be redirected to the home page. | Clicked link on all pages. | Redirected to the home page. | Pass |
-| Commute Link |
-| Lunch Link |
-| Fitness Link |
-| Gallery Link|
-| Feedback Link|
+| Commute Link | When clicked the user will be redirected to the commute page. | Clicked link on all pages. | Redirected to the commute page. | Pass |
+| Lunch Link | When clicked the user will be redirected to the lunch page. | Clicked link on all pages. | Redirected to the lunch page. | Pass |
+| Fitness Link | When clicked the user will be redirected to the fitness page. | Clicked link on all pages. | Redirected to the fitness page. | Pass |
+| Gallery Link| When clicked the user will be redirected to the gallery page. | Clicked link on all pages. | Redirected to the gallery page. | Pass |
+| Feedback Link| When clicked the user will be redirected to the feedback page. | Clicked link on all pages. | Redirected to the feedback page. | Pass |
 |**_Footer_** | 
-| Home Link |
-| Commute Link |
-| Lunch Link |
-| Fitness Link |
-| Gallery Link |
-| Feedback Link |
+| Home Link | When clicked the user will be redirected to the home page. | Clicked link on all pages. | Redirected to the feedback page. | Pass |
+| Commute Link | When clicked the user will be redirected to the commute page. | Clicked link on all pages. | Redirected to the commute page. | Pass |
+| Lunch Link | When clicked the user will be redirected to the lunch page. | Clicked link on all pages. | Redirected to the lunch page. | Pass |
+| Fitness Link | When clicked the user will be redirected to the fitness page. | Clicked link on all pages. | Redirected to the fitness page. | Pass |
+| Gallery Link | When clicked the user will be redirected to the gallery page. | Clicked link on all pages. | Redirected to the gallery page. | Pass |
+| Feedback Link | When clicked the user will be redirected to the feedback page. | Clicked link on all pages. | Redirected to the feedback page. | Pass |
 |**_Home_**| 
-| Commute Link |
-| Travel Link |
-| Lunch Link |
-| Gallery Link |
-| Feedback Link |
+| Commute Link |  When clicked the user will be redirected to the commute page. | Clicked link on home page. | Redirected to the commute page. | Pass |
+| Lunch Link | When clicked the user will be redirected to the lunch page. | Clicked link on home page. | Redirected to the  lunch page. | Pass |
+| Fitness Link | When clicked the user will be redirected to the fitness page. | Clicked link on home page. | Redirected to the fitness page. | Pass |
+| Gallery Link | When clicked the user will be redirected to the gallery page. | Clicked link on home page. | Redirected to the gallery page. | Pass |
+| Feedback Link | When clicked the user will be redirected to the feedback page. | Clicked link on home page. | Redirected to the feedback page. | Pass |
 |**_Feedback_** |
-| Submit Button |
+| Submit Button |  When clicked the user will be redirected to the thank you page. | Clicked the submit button. | Redirected to the thank you page. | Pass |
 |**_Thank You_** |
-| Home page redirection. |
+| Home page redirection. |  When the thank you page is displayed the user will automatically be redirected to the home page after 30 seconds. | Displayed thank you page. | Redirected to home page after 30 seconds. | Pass |
 
 #### External
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
