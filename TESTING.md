@@ -69,19 +69,19 @@
 #### New User
 | Goals | How they are achieved |
 | :-----| :--------------------:|
-| I want a website that is clear and well organized. |  |
-| I want all aspects of the website to be fully functional. |  |
-| I want to find out which mode of transport is suitable for me. |  |
-| I want to find out what the city looks like. |  |
-| I want to be able to find information about other facilities in the city. |  |
-| I would like to advertise on the website. |  |
+| I want a website that is clear and well organized. | This website contains a collection of information topics, each with its dedicated page. Each page is organized into subsections, facilitating easy navigation and making it effortless to find the desired information. |
+| I want all aspects of the website to be fully functional. | The interactive elements of the website have undergone thorough testing and have successfully passed all tests. Additionally, the responsiveness of the website has been extensively tested, ensuring it is fully responsive across various devices.  |
+| I want to find out which mode of transport is suitable for me. | To access commuting information, users can simply click on the provided link within the commuting section of the home page or the commute link in the navbar. This will redirect them to the dedicated commute page, where all available options are displayed. Users can conveniently gather additional information about their desired options by clicking on the relevant links provided. |
+| I want to find out what the city looks like. | To access the gallery, users can simply click on the provided link within the gallery section of the home page or the gallery link in the navbar. This will redirect them to the dedicated gallery page, where all photographs are displayed.  |
+| I want to be able to find information about other facilities in the city. | This website provides comprehensive information about various facilities, including lunches and fitness options. Users can conveniently access this information either from the home page or by clicking on the corresponding links in the navbar. Upon clicking a specific link, users will be redirected to the corresponding page, where they can explore further options within their area of interest. |
+| I would like to advertise on the website. | To advertise, users can access the feedback section located at the bottom of the homepage or simply click on the feedback link in the navbar. By filling out and submitting the provided form, users can share their information for advertising purposes. |
 #### Returning User
 | Goals | How they are achieved |
 | :---- | :--------------------:|
-| I want to be able to find alternative modes of transport should my usual mode not be available. | |
-| I want to find new places to take lunch. |  |
-| I would like the information supplied to be accurate with an option to feedback any incorrect information. |  |
-| I would like to be able to quickly navigate through the website. |  |
+| I want to be able to find alternative modes of transport should my usual mode not be available. | To explore alternative commuting options, users can click on the link provided in the commuting section of the home page or the commute link in the navbar. This action will redirect them to the dedicated commute page, where all available options are displayed. Users can then browse through the alternatives and conveniently access further information by visiting the respective websites. |
+| I want to find new places to take lunch. | Users have multiple ways to access information about dining options. They can navigate to the lunch section on the home page and click on the corresponding link to be redirected to the dedicated lunch page. Alternatively, users can directly use the lunch link provided in the navbar to access the lunch page. On the lunch page, they will find a wide range of places to eat, and by clicking on the links of various restaurants, users can gather detailed information and even make bookings. |
+| I would like the information supplied to be accurate with an option to feedback any incorrect information. | It is possible that some information may not always be completely up-to-date. In such cases, we encourage users to navigate to the feedback section and fill out the form to notify us about any incorrect information they come across.  |
+| I would like to be able to quickly navigate through the website. | Users have various options to navigate through the website. They can explore the different sections available on the home page to find the desired information. Alternatively, if users already know where the required information is located, they can efficiently utilize the navbar and footer to quickly navigate to the specific page they need. |
 ### Full Testing
 #### Internal
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
@@ -147,5 +147,6 @@
 |The placeholder text assigned to a textarea element is not being displayed within the textarea box.| Due to Prettier formatting, the newline character between the opening and closing tags causes the placeholder text to be affected, resulting in an undesired line break.To resolve this issue, the textarea and all of its attributes are placed on the same line in the code.
 
 ### Known Bugs
+* None 
 
 
