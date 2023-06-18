@@ -116,26 +116,26 @@
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
 |**_Home_** |
-| YouTube Video |
+| YouTube Video | When clicked the video will start to play. | Clicked the YouTube play button. | Video started playing. | Pass |
 |**_Commute_** |
-| TFW Website x3 |
-| Embedded Google Maps|
-| Google Maps Link |
-| Cardiff Council Link |
-| Cardiff Bus Link |
-| OVO Bikes Link |
+| TFW Website x3 | When clicked the user will be redirected to the TFW website in a new tab. |  Clicked the TFW link. | TFW website opens in a new tab. | Pass |
+| Embedded Google Maps| The user is able to interact with the map using the zoom controls and by clicking on the map. | Clicked zoom controls and and various locations on the map. | Map zoomed in and out, clicked locations showed further information. | Pass | 
+| Google Maps Link | When clicked the user will be redirected to the google maps website in a new tab. | Clicked the google maps link. | google maps website opens in a new tab. | Pass |
+| Cardiff Council Link | When clicked the user will be redirected to the Cardiff council website in a new tab. | Clicked the Cardiff council link. | Cardiff council website opens in a new tab. | Pass |
+| Cardiff Bus Link | When clicked the user will be redirected to the Cardiff bus website in a new tab. | Clicked the Cardiff bus link. | Cardiff bus website opens in a new tab. | Pass |
+| OVO Bikes Link | When clicked the user will be redirected to the OVO Bikes website in a new tab. | Clicked the OVO Bikes link. | OVO Bikes website opens in a new tab. | Pass |
 |**_Lunch_** |
-| Pasture Link |
-| Grazing Shed Link |
-| Las Iguanas Link |
-| Cosy Club Link |
-| Bombers Link |
-| 200 Degrees Link |
-| New York Deli Link |
-| Uncommon Ground Link |
+| Pasture Link | When clicked the user will be redirected to the Pasture website in a new tab. | Clicked the Pasture link. |Pasture website opens in a new tab. | Pass |
+| Grazing Shed Link | When clicked the user will be redirected to the Grazing Shed website in a new tab. | Clicked the Grazing Shed link. | The Grazing Shed website opens in a new tab. | Pass |
+| Las Iguanas Link | When clicked the user will be redirected to the Las Iguanas website in a new tab. | Clicked the Las Iguanas link. | Las Iguanas website opens in a new tab. | Pass |
+| Cosy Club Link | When clicked the user will be redirected to the Cosy Club website in a new tab. | Clicked the Cozy Club link. | Cozy Club website opens in a new tab. | Pass |
+| Bombers Link | When clicked the user will be redirected to the Bombers website in a new tab. | Clicked the Bombers link. | Bombers website opens in a new tab. | Pass |
+| 200 Degrees Link | When clicked the user will be redirected to the 200 Degrees website in a new tab. | Clicked the 200 Degrees link. | 200 Degrees website opens in a new tab. | Pass |
+| New York Deli Link | When clicked the user will be redirected to the New York Deli website in a new tab. | Clicked the New York Deli link. | New York Deli website opens in a new tab. | Pass |
+| Uncommon Ground Link | When clicked the user will be redirected to the Uncommon Ground website in a new tab. | Clicked the Uncommon Ground link. | Uncommon Ground website opens in a new tab. | Pass |
 |**_Fitness_** |
-| PureGym Link |
-| The Gym Group Link |
+| PureGym Link | When clicked the user will be redirected to the PureGym website in a new tab. | Clicked the PureGym link. | PureGym website opens in a new tab. | Pass |
+| The Gym Group Link | When clicked the user will be redirected to the Gym Group website in a new tab. | Clicked the Gym Group link. | The Gym Group website opens in a new tab. | Pass |
 
 ---
 ## Bugs
