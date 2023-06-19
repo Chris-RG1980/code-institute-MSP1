@@ -9,9 +9,8 @@ The Office Worker's Guide to: Cardiff aims to inform and assist new and returnin
 
 Link to live project
 ***
-## Contents
+**Contents**
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
-  - [Contents](#contents)
   - [User Stories](#user-stories)
       - [New User](#new-user)
       - [Returning User](#returning-user)
@@ -87,11 +86,11 @@ This project is designed to provide an informative and useful resource to office
     5. Create a feature where businesses and customers can communicate directly. 
 
 ### Accessibility
-To enhance visibility for individuals with visual impairments, I have selected color palettes that offer contrast. This deliberate choice enables better readability and comprehension of the content. Additionally, I have taken great care to provide descriptive alternative text for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Furthermore, I have ensured the accessibility of interactive elements by labelling all links and form elements appropriately.  
+To enhance visibility for individuals with visual impairments, the selected color palettes offers contrast. This deliberate choice enables better readability and comprehension of the content. Additionally, I have provided descriptive alternative text for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Also the accessibility of interactive elements is created by labelling all links and form elements appropriately.  
 ***
 ## Typography and Color Scheme
 ### Typography
-For the body of the website, the elegant and legible Source Sans Pro font has been selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
+For the body of the website, the legible Source Sans Pro font has been selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
 
 To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the users device does not support the preferred font.
 

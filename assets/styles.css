@@ -64,7 +64,7 @@ footer {
 /*---------------------------------Page body-------------------------*/
 
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Serif 4", Arial, sans-serif;
 }
 
 /*-----------------------------Navbar-------------------------------*/
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-logo {
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Signika Negative", Arial, sans-serif;
   color: #fdf8b2;
 }
 
