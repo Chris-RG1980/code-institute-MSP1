@@ -18,17 +18,19 @@ Link to live project
   - [User Flows](#user-flows)
       - [New User](#new-user-1)
       - [Returning User](#returning-user-1)
+  - [Wire-frames](#wire-frames)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
-    - [Accessibility](#accessibility)
-  - [Typography and Color Scheme](#typography-and-color-scheme)
+  - [Typography and Colour Scheme](#typography-and-colour-scheme)
     - [Typography](#typography)
-    - [Color Scheme](#color-scheme)
-  - [Wireframes](#wireframes)
+    - [Colour Scheme](#colour-scheme)
+  - [Accessibility](#accessibility)
   - [Technology](#technology)
     - [Languages Used](#languages-used)
-    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Utilities Used](#utilities-used)
   - [Testing](#testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -41,10 +43,11 @@ Link to live project
       - [Gallery Page](#gallery-page)
       - [404 Page](#404-page)
     - [Other Credits](#other-credits)
+    - [Thank You](#thank-you)
 ***
 ## User Stories
 #### New User
-1. As a new office worker in Cardiff I want a website that is clear and well organized.
+1. As a new office worker in Cardiff I want a website that is clear and well organised.
 2. As a new office worker in Cardiff I want all aspects of the website to be fully functional. 
 3. As a new office worker in Cardiff I want to find out which mode of transport is suitable for me.
 4. As a new office worker in Cardiff I want to find out what the city looks like.
@@ -68,44 +71,8 @@ Link to live project
 ![Image](/resources/returning-user-flow.png)
 
 ***
-## Features
-This project is designed to provide an informative and useful resource to office workers.
-### Existing Features
- 1. Information Hub: Develop a user-friendly website that serves as a centralized hub for office workers to access essential information about working in Cardiff. The website will feature well-organized sections covering travel, lunch options and nearby gyms.
- 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively. 
- 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.
- 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.
-### Future Features
-1. Future Pages:  This will include a Parks and Recreation page which will highlight local parks, green spaces, and recreational areas in Cardiff, providing office workers with opportunities to unwind, relax, and engage in outdoor activities during their leisure time. Include relevant details such as park amenities, accessibility, and popular activities.
-2. Future Integration: Plan and implement additional features for the website, such as , discount codes for various services and products, and other relevant functionalities that enhance the user experience and support the needs of office workers. 
-    ##### Other relevant functionalities: 
-    1. Integrating real-time data and notifications will be a key feature to assist users in staying informed about any changes or disruptions in public transportation.
-    2. Research feasibility and if feasible implement real-time availability of car park spaces around the city.
-    3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
-    4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
-    5. Create a feature where businesses and customers can communicate directly. 
-
-### Accessibility
-To enhance visibility for individuals with visual impairments, the selected color palettes offers contrast. This deliberate choice enables better readability and comprehension of the content. Additionally, I have provided descriptive alternative text for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Also the accessibility of interactive elements is created by labelling all links and form elements appropriately.  
-***
-## Typography and Color Scheme
-### Typography
-For the body of the website, the legible Source Sans Pro font has been selected from Google Fonts. Its refined and modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes.
-
-To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the users device does not support the preferred font.
-
-In situations where both Source Sans Pro and Arial are unavailable, the browser will default to the Sans-Serif font family, ensuring that the text remains clear and easily readable. 
-
-The Signika Negative has been used when creating the logo. The Courgette font is used within the main heading creating a balanced and visually engaging look that enhances the overall design of the website. 
-
-By utilizing these fonts strategically, the project achieves a distinct and memorable brand identity. 
-### Color Scheme
-In this project, the color palette has been selected to achieve a modern and clean aesthetic that is both visually pleasing and aligned with the preferences of the target audience.
-
-![Image](resources/colors.png)
-***
-## Wireframes
-During the coding process for the desktop home page, I encountered a challenge while attempting to accommodate all of the necessary information on the screen, as depicted in the corresponding wireframe. It was at this point that I realized I had inadvertently modified the size of the desktop wireframe template, this granted me additional screen space within the wireframe. Consequently, I had to reconsider my design approach for the desktop version, aiming to enhance its flow and generate more vertical space to accommodate the content more effectively. This adjustment allowed me to create a more cohesive and user-friendly desktop layout.
+## Wire-frames
+During the development phase of the desktop home page, I encountered a challenge while attempting to accommodate all of the necessary information on the screen, as depicted in the corresponding wire-frame. It was at this point that I realised I had inadvertently modified the size of the desktop wire-frame template, this granted me additional screen space within the wire-frame. Consequently, I had to reconsider my design approach for the desktop version, aiming to enhance its flow and generate more vertical space to accommodate the content more effectively. This adjustment has allowed for a design resembling the mobile design but also displays the information in a way that the user can quickly scan and locate the point of interest, adding to the user experience.
 
 [Mobile Home Page](resources/wireframes/mobile-home-page.png)  
 [Mobile Travel Page 1](resources/wireframes/mobile-travel-page.png)  
@@ -135,22 +102,66 @@ During the coding process for the desktop home page, I encountered a challenge w
 [Desktop Thank You Page](resources/wireframes/desktop-thank-you-page.png)          
 [Desktop 404 Page](resources/wireframes/desktop-404-page.png)
 ***
+## Features
+This project is designed to provide an informative and useful resource to office workers.
+### Existing Features
+ 1. Information Hub: Develop a user-friendly website that serves as a centralised hub for office workers to access essential information about working in Cardiff. The website will feature well-organised sections covering travel, lunch options and nearby gyms.
+ 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively. 
+ 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.
+ 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.
+### Future Features
+1. Future Pages:  This will include a Parks and Recreation page which will highlight local parks, green spaces, and recreational areas in Cardiff, providing office workers with opportunities to unwind, relax, and engage in outdoor activities during their leisure time. Include relevant details such as park amenities, accessibility, and popular activities.
+2. Future Integration: Plan and implement additional features for the website, such as , discount codes for various services and products, and other relevant functionalities that enhance the user experience and support the needs of office workers. 
+    ##### Other relevant functionalities: 
+    1. Integrating real-time data and notifications will be a key feature to assist users in staying informed about any changes or disruptions in public transportation.
+    2. Research feasibility and if feasible implement real-time availability of car park spaces around the city.
+    3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
+    4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
+    5. Create a feature where businesses and customers can communicate directly. 
+ 
+***
+## Typography and Colour Scheme
+### Typography
+For the body of the website, the legible Source Serif 4 font has been selected from Google Fonts. Its modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes. 
+
+![Image](resources/source-serif-4.png)
+
+To ensure consistent rendering across platforms, Arial has been chosen as the Web-safe font. This familiar typeface acts as a reliable fallback option, ensuring that the content remains accessible even if the users device does not support the preferred font.
+
+In situations where both Source Serif 4 and Arial are unavailable, the browser will default to the Sans-Serif font family, ensuring that the text remains clear and easily readable. 
+
+The Signika Negative has been used when creating the logo. The Courgette font is used within the main heading creating a balanced and visually engaging look that enhances the overall design of the website. 
+
+![Image](resources/signika-negative.png) ![Image](/resources/courgette.png)
+
+By utilising these fonts strategically, the project achieves a distinct and memorable brand identity. 
+### Colour Scheme
+In this project, the colour palette has been selected to achieve a modern and clean aesthetic.
+
+![Image](resources/colors.png)
+***
+## Accessibility
+To enhance visibility for individuals with visual impairments, the selected colour palettes offers contrast. Additionally, descriptive alternative text has been provided for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Also the accessibility of interactive elements is created by labelling all links and form elements appropriately. 
+***
 ## Technology
 ### Languages Used
-HTML and CSS were used to create this website.
-### Frameworks, Libraries & Programs Used
-* [Cardboard It](https://cardboardit.com/) - To create user story flows
-* [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes
-* Git - Version Control.
-* [Github](https://github.com/) - To store repository and deploy site
-* [Google Fonts](https://fonts.google.com/) - To select and Import fonts
-* [Font Awesome](https://fontawesome.com/) - To selecting and Import icons
-* [Coolors](https://coolors.co/) - To create a color palette
-* [Photoshop](https://www.adobe.com/uk/products/photoshop.html) - To create logo image
-* [removal.ai](https://removal.ai) - To remove background from banner image.
-* [Cloud Convert](https://cloudconvert.com/) - To convert image files to webp and ico
-* [Tinypng](https://tinypng.com/) - Image Optimization
+* HTML
+* CSS
+### Frameworks
 * [Bootstrap v5.3](https://getbootstrap.com/) - CSS Framework 
+### Libraries
+* [Google Fonts](https://fonts.google.com/) - To select and Import fonts.
+* [Font Awesome](https://fontawesome.com/) - To selecting and Import icons.
+### Utilities Used
+* [Cardboard It](https://cardboardit.com/) - To create user story flows.
+* [Balsamiq Wire-frames](https://balsamiq.com/) - To create wire-frames.
+* Git - Version Control.
+* [Github](https://github.com/) - To store repository and deploy site.
+* [Coolors](https://coolors.co/) - To create a colour palette.
+* [Photopea](https://www.photopea.com/) - To create logo image.
+* [removal.ai](https://removal.ai) - To remove background from banner image.
+* [Cloud Convert](https://cloudconvert.com/) - To convert image files to webp and ico.
+* [Tinypng](https://tinypng.com/) - For image Optimisation.
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Web Developer Tools
 ***
 ## Testing
@@ -163,45 +174,47 @@ Please see [TESTING.md](/TESTING.md) for all testing performed.
 * Gallery Page - (https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 ### Text, Images & Media
 #### Index Page
-Office worker -  Photo by Marten Bjork on Unsplash\
-Yellow Train - Photo by Waldemar on Unsplash\
-Lunch - Photo by Breakslow on Unsplash\
-Gym - Photo by Craig Lovelidge on Unsplash\
-Gallery - Photo by Michal Matlon on Unsplash\
-YouTube Video - This is Legendary. This is Cardiff. By Visit Wales
+[Office worker](https://unsplash.com/photos/6dW3xyQvcYE) -  Photo by Marten Bjork on Unsplash\
+[Yellow Train](https://unsplash.com/photos/blL5wXUCEpY) - Photo by Waldemar on Unsplash\
+[Lunch](https://unsplash.com/photos/30Mbv2AZz-8) - Photo by Breakslow on Unsplash\
+[Gym](https://unsplash.com/photos/COxd0Jbe7u8) - Photo by Craig Lovelidge on Unsplash\
+[Gallery](https://unsplash.com/photos/H8nxvtKbzdA) - Photo by Michal Matlon on Unsplash\
+[YouTube Video](https://www.youtube.com/watch?v=1x83tPidK_I) - This is Legendary. This is Cardiff. By Visit Wales
 #### Commute Page
-Train Station - Photo by JJ Jordan on Unsplash\
-Bus - Photo by Mitchell Johnson on Unsplash\
-Bike - Photo by Nick Sokolov on Unsplash
+[Train Station](https://unsplash.com/photos/aW5TQteHyTw) - Photo by JJ Jordan on Unsplash\
+[Bus](https://unsplash.com/photos/nd5oU1Duhf0) - Photo by Mitchell Johnson on Unsplash\
+[Bike](https://unsplash.com/photos/qifHIocqFxE) - Photo by Nick Sokolov on Unsplash
 #### Lunch Page
 **Restaurants:-**\
-Pasture: Photo by Jason Leung on Unsplash\
-Burgers: Photo by Dan Gold on Unsplash\
-Mexican: Photo by Hybrid Storytellers on Unsplash\
-Cosy Club:Photo by Sarah Götze on Unsplash
+[Pasture](https://unsplash.com/photos/poI7DelFiVA) - Photo by Jason Leung on Unsplash\
+[Burgers](https://unsplash.com/photos/E6HjQaB7UEA) - Photo by Dan Gold on Unsplash\
+[Mexican](https://unsplash.com/photos/2M9-LTrpxJw) - Photo by Hybrid Storytellers on Unsplash\
+[Cosy Club](https://unsplash.com/photos/ODua_Pc7VQY) - Photo by Sarah Götze on Unsplash
 
 **Sandwich & Coffee Shops:-**\
-Sandwich Featured Image :Photo by Luis Covarrubias on Unsplash\
-Blue coffee: Photo by Laureen Missaire on Unsplash\
-New York Deli: Photo by Mae Mu on Unsplash\
-Coffee Machine: Photo by Kevin Schmid on Unsplash
+[Sandwich Featured Image](https://unsplash.com/photos/ESXMLLiZcWU) - Photo by Luis Covarrubias on Unsplash\
+[Blue coffee](https://unsplash.com/photos/2a5L6tXGL14) - Photo by Laureen Missaire on Unsplash\
+[New York Deli](https://unsplash.com/photos/IZ0LRt1khgM) - Photo by Mae Mu on Unsplash\
+[Coffee Machine](https://unsplash.com/photos/ftA71vetxuo) - Photo by Kevin Schmid on Unsplash
 #### Fitness Page
-PureGym Logo- stickpng.com\
-Gym Group  - stickpng.com
+[PureGym Logo](http://stickpng.com/search?q=puregym&page=1) - stickpng.com\
+[Gym Group](http://stickpng.com/img/icons-logos-emojis/health-fitness-clubs-logos/the-gym-logo)  - stickpng.com
 #### Gallery Page
-Neon Cardiff - Photo by Ryan Everett on Unsplash\
-Cardiff Bay - Photo by Nick Fewings on Unsplash\
-Millennium Center - Photo by Jonny Gios on Unsplash\
-Cardiff Bay Wheel - Photo by Taylor Floyd Mews on Unsplash\
-Arcade - Photo by Shaheem Othupallikkal on Unsplash\
-Castle - Photo by Charlie Seaman on Unsplash\
-Welsh Parliament - Photo by Nick Fewings on Unsplash\
-Night - Photo by John Scanlan on Unsplash\
-Park - Photo by Samuel Meller on Unsplash\
-Stadium View - Photo by Grooveland Designs on Unsplash
+[Neon Cardiff](https://unsplash.com/photos/rMbc0mu5wWg) - Photo by Ryan Everett on Unsplash\
+[Cardiff Bay](https://unsplash.com/photos/IDU1v-rDmQ4) - Photo by Nick Fewings on Unsplash\
+[Millennium Center](https://unsplash.com/photos/l9_XYF2H9SQ) - Photo by Jonny Gios on Unsplash\
+[Cardiff Bay Wheel](https://unsplash.com/photos/5CY9gTo0rJk) - Photo by Taylor Floyd Mews on Unsplash\
+[Arcade](https://unsplash.com/photos/KMFDLsDZztc) - Photo by Shaheem Othupallikkal on Unsplash\
+[Castle](https://unsplash.com/photos/h32BWCul2mU) - Photo by Charlie Seaman on Unsplash\
+[Welsh Parliament](https://unsplash.com/photos/hb_gXTAYW-g) - Photo by Nick Fewings on Unsplash\
+[Night](https://unsplash.com/photos/JOpRmEJZGhY) - Photo by John Scanlan on Unsplash\
+[Park](https://unsplash.com/photos/5RDZhvS4ibU) - Photo by Samuel Meller on Unsplash\
+[Stadium View](https://unsplash.com/photos/apekIDd6sT0) - Photo by Grooveland Designs on Unsplash
 #### 404 Page
-Files - Photo by Sear Greyson on Unsplash
+[Files](https://unsplash.com/photos/K-ZsC7YdJ6Y) - Photo by Sear Greyson on Unsplash
 ### Other Credits
-* Mentor Support
 * Favicon - (https://www.lcn.com/blog/beginners-guide-favicons/)
+### Thank You
+* Graeme Taylor for providing mentor support and feedback.
+* Adam Davies for help with additional testing of the website. 
 ***
