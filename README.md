@@ -6,8 +6,7 @@ including travel options, dining recommendations, nearby gyms, parks, and events
 Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
 
 ![Image](resources/mockups.png)
-
-Link to live project
+[Click here to view the live site](https://chris-rg1980.github.io/code-institute-MSP1/)
 ***
 **Contents**
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
