@@ -1,9 +1,9 @@
 # The office workers guide to: Cardiff
 
 The Office Worker's Guide to: Cardiff aims to inform and assist new and returning office workers in navigating their work experience in Cardiff, Wales.
- The website will serve as a valuable, reliable and  comprehensive resource by providing relevant information about various aspects of working in the city,
- including travel options, dining recommendations, nearby gyms, parks, and events. This will allow office workers to navigate their work experience in
- Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
+The website will serve as a valuable, reliable and  comprehensive resource by providing relevant information about various aspects of working in the city,
+including travel options, dining recommendations, nearby gyms, parks, and events. This will allow office workers to navigate their work experience in
+Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
 
 ![Image](resources/mockups.png)
 
@@ -33,6 +33,8 @@ Link to live project
     - [Utilities Used](#utilities-used)
   - [Testing](#testing)
   - [Deployment](#deployment)
+    - [Initial deployment setup](#initial-deployment-setup)
+    - [Releases](#releases)
   - [Credits](#credits)
     - [Code](#code)
     - [Text, Images \& Media](#text-images--media)
@@ -168,9 +170,21 @@ To enhance visibility for individuals with visual impairments, the selected colo
 Please see [TESTING.md](/TESTING.md) for all testing performed.
 ***
 ## Deployment
+### Initial deployment setup
+This website has been deployed to Github Pages using the following method:
+1. Log in to Github.
+2. Go to the repository to deploy.
+3. Select the settings section within the repository.
+4. Within settings select Pages. 
+5. From the source dropdown select deploy from a branch.
+6. From the branch dropdown select main and /(root).
+7. Click Save
+### Releases
+To release new features a pull request needs to be completed from the development branch to the main branch as the source in Github pages is set to the main branch. 
 ***
 ## Credits
 ### Code
+* Bootstrap v5.3 has been used throughout. 
 * Gallery Page - (https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 ### Text, Images & Media
 #### Index Page
@@ -214,6 +228,7 @@ Please see [TESTING.md](/TESTING.md) for all testing performed.
 [Files](https://unsplash.com/photos/K-ZsC7YdJ6Y) - Photo by Sear Greyson on Unsplash
 ### Other Credits
 * Favicon - (https://www.lcn.com/blog/beginners-guide-favicons/)
+* freeCodeCamp 
 ### Thank You
 * Graeme Taylor for providing mentor support and feedback.
 * Adam Davies for help with additional testing of the website. 
