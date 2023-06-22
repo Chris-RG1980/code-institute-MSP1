@@ -7,6 +7,13 @@ Cardiff with ease, make informed decisions, and ultimately enhance their overall
 
 ![Image](resources/mockups.png)
 [Click here to view the live site](https://chris-rg1980.github.io/code-institute-MSP1/)
+
+![Static Badge](https://img.shields.io/badge/Languages-HTML-blue)
+![Static Badge](https://img.shields.io/badge/Languages-CSS-red)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fchris-rg1980.github.io%2Fcode-institute-MSP1%2F)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/Chris-RG1980/code-institute-MSP1)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Chris-RG1980/code-institute-MSP1)
+
 ***
 **Contents**
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
