@@ -115,14 +115,22 @@
     <!--Feedback form, outline created using bootstrap form classes-->
     <section>
       <div class="container mt-4">
-        <h2 class="text-center page-headings">Feedback Form</h2>
-        <div class="form-bg-color">
-          <form action="thank-you.html" method="get">
-            <!--Your details section of form-->
-            <fieldset>
-              <legend>Your Details</legend>
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center page-headings">Feedback Form</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col form-bg-color p-4">
+            <form action="thank-you.html" method="get">
+              <!--Your details section of form-->
               <div class="row">
-                <div class="col-md-6 g-1">
+                <div class="col">
+                  <h4>Your Details</h4>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-6">
                   <label for="f-name" class="form-label">First Name:</label>
                   <input
                     type="text"
@@ -133,7 +141,7 @@
                     aria-labelledby="f-name"
                     required />
                 </div>
-                <div class="col-md-6 g-1">
+                <div class="col-md-6">
                   <label for="l-name" class="form-label">Last Name:</label>
                   <input
                     type="text"
@@ -145,8 +153,8 @@
                     required />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6 g-1">
+              <div class="row mt-2">
+                <div class="col-md-6">
                   <label for="email" class="form-label">Email:</label>
                   <input
                     type="email"
@@ -157,7 +165,7 @@
                     aria-labelledby="email"
                     required />
                 </div>
-                <div class="col-md-6 g-1">
+                <div class="col-md-6">
                   <label for="tel-number" class="form-label">
                     Telephone Number:
                   </label>
@@ -172,12 +180,14 @@
                     required />
                 </div>
               </div>
-            </fieldset>
-            <!--Your feedback section of form-->
-            <fieldset>
-              <legend class="pt-3">Your Feedback</legend>
-              <div class="row">
-                <div class="col-md-6 g-1">
+              <!--Your feedback section of form-->
+              <div class="row mt-4">
+                <div class="col">
+                  <h4>Your Feedback</h4>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-6">
                   <p>Please select and option:</p>
                   <div class="form-check">
                     <input
@@ -185,6 +195,8 @@
                       type="radio"
                       name="feedback-type"
                       id="business"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#multi-collapse-1"
                       aria-labelledby="business"
                       required />
                     <label class="form-check-label" for="business">
@@ -197,13 +209,15 @@
                       type="radio"
                       name="feedback-type"
                       id="incorrect-info"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#multi-collapse-2"
                       aria-labelledby="incorrect-info" />
                     <label class="form-check-label" for="incorrect-info">
                       I would like to feedback incorrect information.
                     </label>
                   </div>
                 </div>
-                <div class="col-md-6 g-1">
+                <div class="col-md-6">
                   <p>Please select all pages that apply:</p>
                   <div class="form-check">
                     <input
@@ -240,98 +254,118 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col g-1">
-                  <label class="form-label" for="additional-info">
-                    What is incorrect?
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="additional-info"
-                    placeholder="I would like to change..........."
-                    aria-labelledby="additional-info"></textarea>
+              <div id="feedback-questions">
+                <!--Business listing section of form-->
+                <div
+                  class="collapse"
+                  id="multi-collapse-1"
+                  data-bs-parent="#feedback-questions">
+                  <div class="row mt-2">
+                    <div class="col">
+                      <h4>Business Listing</h4>
+                      <p>Please complete the below to list your business.</p>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col">
+                      <label class="form-label" for="business-name">
+                        Business Name:
+                      </label>
+                      <input
+                        type="text"
+                        id="business-name"
+                        name="business"
+                        class="form-control"
+                        placeholder="My Business Name"
+                        aria-labelledby="business-name" />
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-md-6">
+                      <label for="address-1" class="form-label">
+                        Address Line 1:
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address-1"
+                        name="address-line-1"
+                        placeholder="Street Name"
+                        aria-labelledby="address-1" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="address-2" class="form-label">
+                        Town/City:
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address-2"
+                        name="town"
+                        placeholder="Town/City Name"
+                        aria-labelledby="address-2" />
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-md-6">
+                      <label for="address-3" class="form-label">County:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address-3"
+                        name="county"
+                        placeholder="County"
+                        aria-labelledby="address-3" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="address-4" class="form-label">
+                        Post Code:
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address-4"
+                        name="post-code"
+                        placeholder="Post Code"
+                        aria-labelledby="address-4" />
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col">
+                      <label class="form-label" for="web">
+                        Website Address:
+                      </label>
+                      <input
+                        type="url"
+                        id="web"
+                        name="website"
+                        class="form-control"
+                        placeholder="https://example.com"
+                        aria-labelledby="web" />
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </fieldset>
-            <!--Business listing section of form-->
-            <fieldset>
-              <legend class="pt-3">Business Listing</legend>
-              <p>Please complete the below to list your business.</p>
-              <div class="row">
-                <div class="col g-1">
-                  <label class="form-label" for="business-name">
-                    Business Name:
-                  </label>
-                  <input
-                    type="text"
-                    id="business-name"
-                    name="business"
-                    class="form-control"
-                    placeholder="My Business Name"
-                    aria-labelledby="business-name" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 g-1">
-                  <label for="address-1" class="form-label">
-                    Address Line 1:
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address-1"
-                    name="address-line-1"
-                    placeholder="Street Name"
-                    aria-labelledby="address-1" />
-                </div>
-                <div class="col-md-6 g-1">
-                  <label for="address-2" class="form-label">Town/City:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address-2"
-                    name="town"
-                    placeholder="Town/City Name"
-                    aria-labelledby="address-2" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 g-1">
-                  <label for="address-3" class="form-label">County:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address-3"
-                    name="county"
-                    placeholder="County"
-                    aria-labelledby="address-3" />
-                </div>
-                <div class="col-md-6 g-1">
-                  <label for="address-4" class="form-label">Post Code:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address-4"
-                    name="post-code"
-                    placeholder="Post Code"
-                    aria-labelledby="address-4" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col g-1">
-                  <label class="form-label" for="web">Website Address:</label>
-                  <input
-                    type="url"
-                    id="web"
-                    name="website"
-                    class="form-control"
-                    placeholder="https://example.com"
-                    aria-labelledby="web" />
+                <div
+                  class="collapse"
+                  id="multi-collapse-2"
+                  data-bs-parent="#feedback-questions">
+                  <div class="row mt-2">
+                    <div class="col">
+                      <label class="form-label" for="additional-info">
+                        What is incorrect?
+                      </label>
+                      <textarea
+                        class="form-control"
+                        id="additional-info"
+                        placeholder="I would like to change..........."
+                        aria-labelledby="additional-info"></textarea>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!--Form submit button-->
-              <div class="row">
-                <div class="col mt-4 mb-4 d-flex justify-content-center">
+              <div class="row mt-4">
+                <div class="col d-flex justify-content-center">
                   <input
                     type="submit"
                     id="submit"
@@ -340,8 +374,8 @@
                     aria-label="submit" />
                 </div>
               </div>
-            </fieldset>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </section>
