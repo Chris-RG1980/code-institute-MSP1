@@ -106,10 +106,13 @@ During the development phase of the desktop home page, I encountered a challenge
 ## Features
 This project is designed to provide an informative and useful resource to office workers.
 ### Existing Features
- 1. Information Hub: Develop a user-friendly website that serves as a centralised hub for office workers to access essential information about working in Cardiff. The website will feature well-organised sections covering travel, lunch options and nearby gyms.
- 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively. 
- 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.
- 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.
+ 1. Information Hub: Develop a user-friendly website that serves as a centralised hub for office workers to access essential information about working in Cardiff. The website will feature well-organised sections covering travel, lunch options and nearby gyms.*See figure 1 below.*
+ 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively.*See figure 2a & 2b below.*
+ 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.*See figure 3a & 3b below.*
+ 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.*See figure 4 below.*
+
+![Image](resources/features-a.png)
+![Image](resources/features-b.png)
 ### Future Features
 1. Future Pages:  This will include a Parks and Recreation page which will highlight local parks, green spaces, and recreational areas in Cardiff, providing office workers with opportunities to unwind, relax, and engage in outdoor activities during their leisure time. Include relevant details such as park amenities, accessibility, and popular activities.
 2. Future Integration: Plan and implement additional features for the website, such as , discount codes for various services and products, and other relevant functionalities that enhance the user experience and support the needs of office workers. 
