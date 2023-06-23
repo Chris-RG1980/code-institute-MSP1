@@ -74,15 +74,18 @@ Testing has been completed using the W3C code validators to ensure that the code
 
 ---
 ### Wave
-The Wave Tool has been used throughout this project. It has helped us identify and address potential accessibility issues throughout the development process. 
+The Wave Tool has been used throughout the development process. It has helped identify and address potential accessibility issues. 
 
 Currently, the Wave Tool has detected an error on the thank you page. This error is a result of the automatic redirection to the home page. While the redirection feature provides a valuable user experience, it triggers an issue with the Wave Tool's evaluation.
 
 The automatic redirection function adds significant value to our users, by automatically redirecting them to the home page without requiring any additional input. This will enhance the overall convenience and efficiency of their browsing experience.
 
+![Image](resources/testing/wave-one.png)
+![Image](resources/testing/wave-two.png)
+
 ---
 ## Browser Compatibility
-Testing has been carried out on the browsers within the below table as these browsers are most used but in addition to this Firefox uses Gecko rendering engine while the others use WebKit.
+Testing has been carried out on the browsers within the below table as these browsers are most used, but in addition to this Firefox uses Gecko rendering engine while the others use WebKit. This helps identify any inconsistencies or rendering discrepancies that may arise due to variations in the rendering engines.
 
 ![Image](resources/testing/browser-testing.png)
 
@@ -145,6 +148,10 @@ Testing has been carried out on the browsers within the below table as these bro
 **Feedback Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+| Form Collapse | When the business listing radio button is selected the business listing section appears. | Clicked on business listing radio button. | Business listing section appears. | Pass |
+| Form Collapse | When the business listing radio button is selected for a second time the business listing section disappears. | Clicked on business listing radio button twice. | Business listing section disappears. | Pass |
+| Form Collapse | When the incorrect information radio button is selected the incorrect information section appears. | Clicked on incorrect information radio button. | Incorrect information section appears. | Pass |
+| Form Collapse | When the incorrect information radio button is selected for a second time the incorrect information section disappears. | Clicked on incorrect information radio button twice. | Incorrect information section disappears. | Pass |
 | Submit Button |  When clicked the user will be redirected to the thank you page. | Clicked the submit button. | Redirected to the thank you page. | Pass |
 
 **Thank You Page** 
@@ -198,6 +205,11 @@ Testing has been carried out on the browsers within the below table as these bro
 |During the testing phase, an issue was identified regarding the display of the selected Google font, "Source Sans Pro." Upon searching the Google Fonts library, it was discovered that the font could not be found. As a result, a decision was made to select an alternative font, namely "Source Serif 4." However, upon implementing this new font, alignment issues arose specifically with the links located within the cards on both the home page and commute page. ![Image](resources/testing/without-google-font.png) ![Image](/resources/testing/with-font.png) | To address the alignment issues with the links within the cards on the home page and commute page, several modifications were made. In order to vertically stack the items within the card-body, the Bootstrap classes "d-flex" and "flex-column" were added to the card-body class. Additionally, a new div was introduced with the class "mt-auto" to properly nest the links and ensure alignment consistency among all links.![Image](/resources/testing/with-alignment.png) |
 
 ### Known Bugs
-* None 
+
+| Page | Bug |
+| :--- | :-----: |
+| Thank-you.html | Currently, the Wave Tool has detected an error on the thank you page. This error is a result of the automatic redirection to the home page. While the redirection feature provides a valuable user experience, it triggers an issue with the Wave Tool's evaluation. |
+
+---
 
 

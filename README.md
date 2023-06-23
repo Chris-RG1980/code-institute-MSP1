@@ -2,11 +2,18 @@
 
 The Office Worker's Guide to: Cardiff aims to inform and assist new and returning office workers in navigating their work experience in Cardiff, Wales.
 The website will serve as a valuable, reliable and  comprehensive resource by providing relevant information about various aspects of working in the city,
-including travel options, dining recommendations, nearby gyms, parks, and events. This will allow office workers to navigate their work experience in
+including travel options, dining recommendations and nearby gyms. This will allow office workers to navigate their work experience in
 Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
 
 ![Image](resources/mockups.png)
 [Click here to view the live site](https://chris-rg1980.github.io/code-institute-MSP1/)
+
+![Static Badge](https://img.shields.io/badge/Languages-HTML-blue)
+![Static Badge](https://img.shields.io/badge/Languages-CSS-red)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fchris-rg1980.github.io%2Fcode-institute-MSP1%2F)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/Chris-RG1980/code-institute-MSP1)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Chris-RG1980/code-institute-MSP1)
+
 ***
 **Contents**
 - [The office workers guide to: Cardiff](#the-office-workers-guide-to-cardiff)
@@ -17,14 +24,20 @@ Cardiff with ease, make informed decisions, and ultimately enhance their overall
   - [User Flows](#user-flows)
       - [New User](#new-user-1)
       - [Returning User](#returning-user-1)
-  - [Wire-frames](#wire-frames)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
-  - [Typography and Colour Scheme](#typography-and-colour-scheme)
-    - [Typography](#typography)
-    - [Colour Scheme](#colour-scheme)
-  - [Accessibility](#accessibility)
+  - [Wire-frames](#wire-frames)
+  - [Design](#design)
+    - [Professionalism](#professionalism)
+    - [User-Friendliness](#user-friendliness)
+      - [Navigation](#navigation)
+      - [Accessibility](#accessibility)
+    - [Visual Appeal](#visual-appeal)
+      - [Typography](#typography)
+      - [Colour Scheme](#colour-scheme)
+    - [Consistency](#consistency)
+    - [Responsiveness](#responsiveness)
   - [Technology](#technology)
     - [Languages Used](#languages-used)
     - [Frameworks](#frameworks)
@@ -34,6 +47,9 @@ Cardiff with ease, make informed decisions, and ultimately enhance their overall
   - [Deployment](#deployment)
     - [Initial deployment setup](#initial-deployment-setup)
     - [Releases](#releases)
+    - [Forking the Repository](#forking-the-repository)
+    - [Cloning the Forked Repository](#cloning-the-forked-repository)
+    - [Cloning with Git](#cloning-with-git)
   - [Credits](#credits)
     - [Code](#code)
     - [Text, Images \& Media](#text-images--media)
@@ -70,7 +86,27 @@ Cardiff with ease, make informed decisions, and ultimately enhance their overall
 ![Image](/resources/new-user-flow.png)
 #### Returning User
 ![Image](/resources/returning-user-flow.png)
+***
+## Features
+This project is designed to provide an informative and useful resource to office workers.
+### Existing Features
+ 1. Information Hub: Develop a user-friendly website that serves as a centralised hub for office workers to access essential information about working in Cardiff. The website will feature well-organised sections covering travel, lunch options and nearby gyms.  *See figure 1 below.*
+ 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively.  *See figure 2a & 2b below.*
+ 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.  *See figure 3a & 3b below.*
+ 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.  *See figure 4 below.*
 
+![Image](resources/features-a.png)
+![Image](resources/features-b.png)
+### Future Features
+1. Future Pages:  This will include a Parks and Recreation page which will highlight local parks, green spaces, and recreational areas in Cardiff, providing office workers with opportunities to unwind, relax, and engage in outdoor activities during their leisure time. Include relevant details such as park amenities, accessibility, and popular activities.
+2. Future Integration: Plan and implement additional features for the website, such as , discount codes for various services and products, and other relevant functionalities that enhance the user experience and support the needs of office workers. 
+    ##### Other relevant functionalities: 
+    1. Integrating real-time data and notifications will be a key feature to assist users in staying informed about any changes or disruptions in public transportation.
+    2. Research feasibility and if feasible implement real-time availability of car park spaces around the city.
+    3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
+    4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
+    5. Create a feature where businesses and customers can communicate directly. 
+ 
 ***
 ## Wire-frames
 During the development phase of the desktop home page, I encountered a challenge while attempting to accommodate all of the necessary information on the screen, as depicted in the corresponding wire-frame. It was at this point that I realised I had inadvertently modified the size of the desktop wire-frame template, this granted me additional screen space within the wire-frame. Consequently, I had to reconsider my design approach for the desktop version, aiming to enhance its flow and generate more vertical space to accommodate the content more effectively. This adjustment has allowed for a design resembling the mobile design but also displays the information in a way that the user can quickly scan and locate the point of interest, adding to the user experience.
@@ -103,26 +139,24 @@ During the development phase of the desktop home page, I encountered a challenge
 [Desktop Thank You Page](resources/wireframes/desktop-thank-you-page.png)          
 [Desktop 404 Page](resources/wireframes/desktop-404-page.png)
 ***
-## Features
-This project is designed to provide an informative and useful resource to office workers.
-### Existing Features
- 1. Information Hub: Develop a user-friendly website that serves as a centralised hub for office workers to access essential information about working in Cardiff. The website will feature well-organised sections covering travel, lunch options and nearby gyms.
- 2. Travel Information: Provide details on transportation options, including train and bus times, to help office workers plan their daily commute effectively. 
- 3. Lunch Recommendations: Curate a comprehensive list of nearby restaurants, cafes, and food outlets that offer a diverse range of options for office workers to enjoy during their lunch breaks.
- 4. Fitness Facilities: Compile a list of nearby gyms and fitness centre's in Cardiff, along with relevant details such as membership fees, facilities, and opening hours. Provide office workers with the necessary information to maintain a healthy lifestyle and incorporate exercise into their daily routines.
-### Future Features
-1. Future Pages:  This will include a Parks and Recreation page which will highlight local parks, green spaces, and recreational areas in Cardiff, providing office workers with opportunities to unwind, relax, and engage in outdoor activities during their leisure time. Include relevant details such as park amenities, accessibility, and popular activities.
-2. Future Integration: Plan and implement additional features for the website, such as , discount codes for various services and products, and other relevant functionalities that enhance the user experience and support the needs of office workers. 
-    ##### Other relevant functionalities: 
-    1. Integrating real-time data and notifications will be a key feature to assist users in staying informed about any changes or disruptions in public transportation.
-    2. Research feasibility and if feasible implement real-time availability of car park spaces around the city.
-    3. Incorporate user reviews, ratings, and interactive maps to facilitate decision-making and enhance the overall user experience to the lunch recommendations section.
-    4. Feature a regularly updated calendar of events, exhibitions, conferences, and other notable activities taking place in Cardiff. Provide office workers with a comprehensive overview of cultural, social, and professional events in the city to encourage engagement and networking opportunities.
-    5. Create a feature where businesses and customers can communicate directly. 
- 
-***
-## Typography and Colour Scheme
-### Typography
+## Design
+The design of the website aims to achieve the following goals:
+
+1. Professionalism: The website should present a professional and polished appearance to establish trust and credibility with visitors.
+2. User-Friendliness: The user interface should be intuitive, allowing visitors to easily navigate the website and access the desired information.
+3. Visual Appeal: The design should be visually appealing, using appropriate colors, typography, and layout to create an engaging and attractive experience.
+4. Consistency: Consistent design elements should be used throughout the website to maintain a cohesive and harmonious visual identity.
+5. Responsiveness: The website should be responsive and adapt to different screen sizes and devices, ensuring optimal user experience across platforms.
+### Professionalism
+Careful consideration has been given to elements such as color schemes, typography and layout, resulting in a cohesive and visually appealing website. The use of high-quality images and graphics further enhances the overall aesthetic, elevating the professionalism of the site. The consistent application of the logo reinforces a sense of credibility and establishes a strong brand presence. The website content is well-organized, concise and tailored to the target audience, demonstrating a level of expertise and professionalism in delivering information effectively.
+### User-Friendliness
+The main design of this website incorporates the Bootstrap card component which offers a structured layout to effectively organize different sections of the site. By utilizing this component users can efficiently access the required information as it is compartmentalized into well-defined sections. The links provided are strategically placed within their respective sections, ensuring easy navigation and relevance. While the lunch and fitness pages feature an alternative layout to add visual interest and show more information, they still adhere to the principle of keeping links closely associated with their relevant sections. This design approach aims to enhance user experience and facilitate seamless interaction with the website.
+#### Navigation
+For ease of navigation a navbar and footer is on all pages of this website. The navbar positioned at the top of the webpage presents a clear and concise menu of options, enabling users to jump to different pages of the site. The footer located at the bottom of the webpage, offers supplementary navigation elements such as links to pages and contact information.
+#### Accessibility
+To enhance visibility for individuals with visual impairments, the selected colour palettes offers contrast. Additionally, descriptive alternative text has been provided for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Also the accessibility of interactive elements is created by labelling all links and form elements appropriately. 
+### Visual Appeal
+#### Typography
 For the body of the website, the legible Source Serif 4 font has been selected from Google Fonts. Its modern appearance enhances the overall aesthetic while maintaining readability across various devices and screen sizes. 
 
 ![Image](resources/source-serif-4.png)
@@ -136,13 +170,14 @@ The Signika Negative has been used when creating the logo. The Courgette font is
 ![Image](resources/signika-negative.png) ![Image](/resources/courgette.png)
 
 By utilising these fonts strategically, the project achieves a distinct and memorable brand identity. 
-### Colour Scheme
-In this project, the colour palette has been selected to achieve a modern and clean aesthetic.
+#### Colour Scheme
+In this project, this colour palette has been selected to achieve a modern and clean aesthetic. Although not part of this colour scheme the use of a white background helps create a sense of balance and separation between different sections, improving readability and visual appeal.
 
 ![Image](resources/colors.png)
-***
-## Accessibility
-To enhance visibility for individuals with visual impairments, the selected colour palettes offers contrast. Additionally, descriptive alternative text has been provided for all images used on the website. This inclusion allows screen readers to accurately convey the visual information to users who rely on auditory assistance. Also the accessibility of interactive elements is created by labelling all links and form elements appropriately. 
+### Consistency
+This website maintains a consistent look and feel across all of its pages, ensuring a seamless user experience. The achievement of this consistency is attributed to the use of similar layouts throughout the site. By using a standardized design approach, users can navigate the website with ease as the layout and structure remain familiar and predictable. Additionally, all links within the website adhere to the same design, maintaining a cohesive visual style. To further establish consistency, each page features a navbar, footer, and heading, providing a framework that unifies the entire website. 
+### Responsiveness
+By using the Bootstrap grid system and flexbox, the website seamlessly adjusts its content and design elements to provide a good user experience on desktops, tablets, and mobile devices. The website's responsive design guarantees that all information remains accessible and visually appealing. Images, text, and other media elements gracefully resize and reposition themselves, maintaining readability and usability.
 ***
 ## Technology
 ### Languages Used
@@ -178,8 +213,27 @@ This website has been deployed to Github Pages using the following method:
 5. From the source dropdown select deploy from a branch.
 6. From the branch dropdown select main and /(root).
 7. Click Save
+
+(Please note: Currently this website is static html and css and therefore can be hosted on other services that offer static hosting).
 ### Releases
 To release new features a pull request needs to be completed from the development branch to the main branch as the source in Github pages is set to the main branch. 
+### Forking the Repository
+1. On the top-right corner of the repository page, click on the button labelled "Fork."
+2. Select the owner (if there is more than one account available).
+3. Rename the repository if required.
+4. Add a description (this step is optional).
+5. Click on the green "Create Fork" button.
+### Cloning the Forked Repository
+1. After forking the repository, you will be redirected to the forked copy of the repository.
+2. On the right side of the repository page, click on the the green "Code" button.
+3. A dropdown will appear with options to clone the repository. Select the HTTPS option for a local setup.
+4. Click the clipboard icon next to the repository URL to copy it to the clipboard. You can now clone the repository onto your local machine.
+### Cloning with Git
+1. Open a terminal or command prompt on your computer.
+2. Use the `cd` command to navigate to the directory where you want to clone the repository.
+3. When in the required directory, use the `git clone` command followed by the repository URL you copied earlier.
+4. To execute the `git clone` command press enter.
+5. Git will download the repository files onto your computer, creating a new directory with the repository name.
 ***
 ## Credits
 ### Code
@@ -230,5 +284,6 @@ To release new features a pull request needs to be completed from the developmen
 * freeCodeCamp 
 ### Thank You
 * Graeme Taylor for providing mentor support and feedback.
+* Iris Smok (Cohort Facilitator) for providing support and guidance within weekly stand ups.
 * Adam Davies for help with additional testing of the website. 
 ***
