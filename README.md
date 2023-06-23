@@ -2,7 +2,7 @@
 
 The Office Worker's Guide to: Cardiff aims to inform and assist new and returning office workers in navigating their work experience in Cardiff, Wales.
 The website will serve as a valuable, reliable and  comprehensive resource by providing relevant information about various aspects of working in the city,
-including travel options, dining recommendations, nearby gyms, parks, and events. This will allow office workers to navigate their work experience in
+including travel options, dining recommendations and nearby gyms. This will allow office workers to navigate their work experience in
 Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
 
 ![Image](resources/mockups.png)
@@ -39,8 +39,11 @@ Cardiff with ease, make informed decisions, and ultimately enhance their overall
     - [Utilities Used](#utilities-used)
   - [Testing](#testing)
   - [Deployment](#deployment)
-    - [Initial deployment setup](#initial-deployment-setup)
-    - [Releases](#releases)
+    - [Initial deployment setup:](#initial-deployment-setup)
+    - [Releases:](#releases)
+    - [Forking the Repository:](#forking-the-repository)
+    - [Cloning the Forked Repository:](#cloning-the-forked-repository)
+    - [Cloning with Git:](#cloning-with-git)
   - [Credits](#credits)
     - [Code](#code)
     - [Text, Images \& Media](#text-images--media)
@@ -179,7 +182,7 @@ To enhance visibility for individuals with visual impairments, the selected colo
 Please see [TESTING.md](/TESTING.md) for all testing performed.
 ***
 ## Deployment
-### Initial deployment setup
+### Initial deployment setup:
 This website has been deployed to Github Pages using the following method:
 1. Log in to Github.
 2. Go to the repository to deploy.
@@ -188,8 +191,27 @@ This website has been deployed to Github Pages using the following method:
 5. From the source dropdown select deploy from a branch.
 6. From the branch dropdown select main and /(root).
 7. Click Save
-### Releases
+
+(Please note: Currently this website is static html and css and therefore can be hosted on other services that offer static hosting).
+### Releases:
 To release new features a pull request needs to be completed from the development branch to the main branch as the source in Github pages is set to the main branch. 
+### Forking the Repository:
+1. On the top-right corner of the repository page, click on the button labelled "Fork."
+2. Select the owner (if there is more than one account available).
+3. Rename the repository if required.
+4. Add a description (this step is optional).
+5. Click on the green "Create Fork" button.
+### Cloning the Forked Repository:
+1. After forking the repository, you will be redirected to the forked copy of the repository.
+2. On the right side of the repository page, click on the the green "Code" button.
+3. A dropdown will appear with options to clone the repository. Select the HTTPS option for a local setup.
+4. Click the clipboard icon next to the repository URL to copy it to the clipboard. You can now clone the repository onto your local machine.
+### Cloning with Git:
+1. Open a terminal or command prompt on your computer.
+2. Use the `cd` command to navigate to the directory where you want to clone the repository.
+3. When in the required directory, use the `git clone` command followed by the repository URL you copied earlier.
+4. To execute the `git clone` command press enter.
+5. Git will download the repository files onto your computer, creating a new directory with the repository name.
 ***
 ## Credits
 ### Code
@@ -240,5 +262,6 @@ To release new features a pull request needs to be completed from the developmen
 * freeCodeCamp 
 ### Thank You
 * Graeme Taylor for providing mentor support and feedback.
+* Iris Smok (Cohort Facilitator) for providing support and guidance within weekly stand ups.
 * Adam Davies for help with additional testing of the website. 
 ***
