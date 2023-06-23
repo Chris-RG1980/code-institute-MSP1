@@ -10,12 +10,12 @@ nav {
   --bs-nav-link-color: #fff;
 }
 
-.btn-color {
+.btn-color-dark-cyan {
   background-color: #00736c;
   color: #fff;
 }
 
-.btn-color:hover {
+.btn-color-dark-cyan:hover {
   background-color: #66c6ba;
 }
 
