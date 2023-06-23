@@ -81,7 +81,7 @@ body {
 /*----------------------------Main Heading Section---------------------------*/
 
 .image-container {
-  background: #efeee9 no-repeat url(/images/office-worker.webp)
+  background: #efeee9 no-repeat url(../images/office-worker.webp)
     right top;
   height: 400px;
 }
