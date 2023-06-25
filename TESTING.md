@@ -66,11 +66,20 @@ Testing has been completed using the W3C code validators to ensure that the code
 
 ---
 ### Lighthouse
-![Image](resources/testing/lighthouse-tests.png)
+The lighthouse results can be found for each page by clicking the below links.
+
+[Home Page Results](/resources/testing/lighthouse-home-page.png)\
+[Commute Page Results](/resources/testing/lighthouse-commute-page.png)\
+[Lunch Page Results](/resources/testing/lighthouse-lunch-page.png)\
+[Fitness Page Results](/resources/testing/lighthouse-fitness-page.png)\
+[Gallery Page Results](/resources/testing/lighthouse-gallery-page.png)\
+[Feedback Page Results](/resources/testing/lighthouse-feedback-page.png)\
+[Thank You Page Results](/resources/testing/lighthouse-thank-you-page.png)\
+[404 Page Results](/resources/testing/lighthouse-not-found-page.png)
+
 | Page | Observations |
 |:---------- | :--------------- |
 | Home Page | In order to address performance issues related to the embedded YouTube video and improve lighthouse testing results, it is recommended to consider using facades. Additional information can be found in the Google documentation, specifically in the section on third-party facades (https://developer.chrome.com/en/docs/lighthouse/performance/third-party-facades/). However, despite attempting to implement the recommended solution, I encountered difficulties in getting the video to render correctly. As a result, I have decided to stick with the original embedded code, which renders correctly and remains responsive.  |
-| Gallery Page | During the initial testing of the gallery page, a performance score of 74 was obtained. Upon analysing the results, it became evident that the issue was with the large size of the images used. To address this, I obtained smaller versions of the same images and applied compression to reduce their file sizes. Upon retesting the page, the performance score significantly improved to 99. ![Image](resources/testing/lighthouse-gallery-updated.png)|
 
 ---
 ### Wave
