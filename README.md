@@ -6,7 +6,8 @@ including travel options, dining recommendations and nearby gyms. This will allo
 Cardiff with ease, make informed decisions, and ultimately enhance their overall quality of life in the city.
 
 ![Image](resources/mockups.png)
-[Click here to view the live site](https://chris-rg1980.github.io/code-institute-MSP1/)
+
+**[Click here to view the live site](https://chris-rg1980.github.io/code-institute-MSP1/)**
 
 ![Static Badge](https://img.shields.io/badge/Languages-HTML-blue)
 ![Static Badge](https://img.shields.io/badge/Languages-CSS-red)
